@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Percursos</title>
+  <meta name="description" content="Percursos pela exposição A Enciclopédia." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Exposição<span>.</span></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="percursos.html" aria-current="page">Percursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Percursos</h2>
+        <p class="section-subtitle">Escolha como deseja conhecer as enciclopédias: por ordem cronológica na Linha do
+          Tempo ou por locais de edição em Países.</p>
+
+        <div class="gallery">
+          <article class="gallery-item" data-type="image" data-src="assets/images/Linha do Tempo.png">
+            <img src="assets/images/Linha do Tempo.png" alt="Percurso Linha do Tempo" loading="lazy" />
+            <div class="gallery-caption">
+              <h3>Linha do Tempo</h3>
+              <p>Explora por ordem cronológica.</p>
+            </div>
+          </article>
+
+          <article class="gallery-item" data-type="image" data-src="assets/images/Países.png">
+            <img src="assets/images/Países.png" alt="Percurso por países" loading="lazy" />
+            <div class="gallery-caption">
+              <h3>Países</h3>
+              <p>Explora por local de edição.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close" aria-label="Fechar">&times;</button>
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

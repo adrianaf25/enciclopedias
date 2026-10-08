@@ -5,18 +5,23 @@ Site estático (HTML, CSS e JavaScript puros, sem frameworks nem dependências) 
 ## Estrutura
 
 ```
-index.html          → página principal
+index.html          → página inicial
+sobre.html          → página Sobre a Exposição
+percursos.html      → página Percursos
+contacto.html       → página Contacto
 css/style.css        → estilos
-js/script.js         → menu mobile + lightbox da galeria
+js/script.js         → menu mobile + lightbox de Percursos
 assets/images/        → imagens e thumbnails
-assets/videos/        → vídeo de fundo e vídeos da galeria
+assets/videos/        → vídeo de entrada e vídeos da exposição
 ```
 
 ## Como editar
 
-- **Textos**: edita diretamente o [index.html](index.html) (título, secção "Sobre", legendas da galeria, contacto).
-- **Imagens/vídeos**: substitui os ficheiros em `assets/images/` e `assets/videos/` mantendo os mesmos nomes, ou atualiza os caminhos (`src`/`data-src`) no `index.html`.
-- **Mais itens na galeria**: copia um bloco `<article class="gallery-item">...</article>` dentro da secção `#galeria` e ajusta o conteúdo.
+- **Página inicial**: edita o [index.html](index.html).
+- **Sobre**: edita o [sobre.html](sobre.html).
+- **Percursos**: edita o [percursos.html](percursos.html); para adicionar cartões, copia um bloco `<article class="gallery-item">...</article>`.
+- **Contacto**: edita o [contacto.html](contacto.html).
+- **Imagens/vídeos**: substitui os ficheiros em `assets/images/` e `assets/videos/` mantendo os mesmos nomes, ou atualiza os caminhos (`src`/`data-src`) na página correspondente.
 - **Cores/tema**: ajusta as variáveis no topo do [css/style.css](css/style.css) (`--bg`, `--accent`, etc.).
 
 ## Ver localmente

@@ -12,16 +12,6 @@ if (entryButton && entryScreen && siteContent) {
   });
 }
 
-const startVisitButton = document.getElementById('start-visit');
-const visitContent = document.getElementById('visit-content');
-
-if (startVisitButton && visitContent) {
-  startVisitButton.addEventListener('click', () => {
-    visitContent.hidden = false;
-    startVisitButton.setAttribute('aria-expanded', 'true');
-  });
-}
-
 const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.navbar nav');
 
