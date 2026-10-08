@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <meta name="description" content="Exposição virtual de um projeto académico." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
   <section class="entry-screen" id="entry-screen" aria-label="Entrada da exposição">
@@ -19,114 +21,90 @@
     </button>
   </section>
 
-  <div id="site-content" hidden>
-
   <!-- Navegação -->
   <header class="navbar">
-    <a href="#home" class="logo">Exposição<span>.</span></a>
-    <nav>
-      <ul>
-        <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+      <a href="#home" class="logo">Exposição<span>.</span></a>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#percursos">Percursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
-  <!-- Hero com vídeo de fundo -->
-  <section id="home" class="hero">
-    <video class="hero-video" autoplay muted loop playsinline>
-      <source src="PÁGINA DE ENTRADA - FIM.mp4?v=2" type="video/mp4" />
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h1>Título da Exposição Virtual</h1>
-      <p>Um projeto académico apresentado através de uma experiência imersiva.</p>
-      <a href="#galeria" class="btn">Explorar a Galeria</a>
-    </div>
-  </section>
+  <div id="site-content" hidden>
 
-  <!-- Sobre o projeto -->
-  <section id="sobre" class="section">
-    <div class="container">
-      <h2>Sobre o Projeto</h2>
-      <p>
-        Escreve aqui uma descrição do projeto académico: objetivos, contexto, autores,
-        instituição e qualquer informação relevante para quem visita a exposição.
-      </p>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>A ENCICLOPÉDIA</h1>
 
-  <!-- Galeria -->
-  <section id="galeria" class="section section-alt">
-    <div class="container">
-      <h2>Galeria</h2>
-      <p class="section-subtitle">Clica num item para veres em detalhe.</p>
 
-      <div class="gallery">
-
-        <article class="gallery-item" data-type="image" data-src="assets/images/obra1.jpg">
-          <img src="assets/images/obra1-thumb.jpg" alt="Obra 1" loading="lazy" />
-          <div class="gallery-caption">
-            <h3>Peça 1</h3>
-            <p>Breve descrição da peça.</p>
-          </div>
-        </article>
-
-        <article class="gallery-item" data-type="video" data-src="assets/videos/obra2.mp4">
-          <video muted loop playsinline preload="metadata">
-            <source src="assets/videos/obra2.mp4#t=0.5" type="video/mp4" />
-          </video>
-          <div class="gallery-caption">
-            <h3>Peça 2</h3>
-            <p>Breve descrição em vídeo.</p>
-          </div>
-        </article>
-
-        <article class="gallery-item" data-type="image" data-src="assets/images/obra3.jpg">
-          <img src="assets/images/obra3-thumb.jpg" alt="Obra 3" loading="lazy" />
-          <div class="gallery-caption">
-            <h3>Peça 3</h3>
-            <p>Breve descrição da peça.</p>
-          </div>
-        </article>
-
-        <article class="gallery-item" data-type="text">
-          <div class="gallery-text">
-            <h3>Peça 4</h3>
-            <p>
-              Item apenas com texto, útil para notas curatoriais,
-              citações ou explicações mais longas.
-            </p>
-          </div>
-        </article>
-
+        <a href="#sobre" class="btn" id="start-visit" aria-controls="visit-content" aria-expanded="false">Iniciar a visita</a>
       </div>
+      
+    </section>
+
+    <div id="visit-content" hidden>
+      <!-- Sobre o projeto -->
+      <section id="sobre" class="section">
+        <div class="container">
+          <h2>Sobre a Exposição</h2>
+          <p>Ao longo dos séculos, a enciclopédia afirmou-se como um dispositivo de organização do saber, orientado pelos
+            ideais de universalidade e progresso. Atualmente, assistimos à sua transformação associada à digitalização da
+            informação e a mudanças profundas nos modos de produção, validação e divulgação do conhecimento.</p>
+          <p>Entendendo a enciclopédia como um reflexo do “espírito do tempo e do lugar”, esta exposição apresenta a
+            história das enciclopédias e promove uma reflexão sobre as transformações do conhecimento e sobre o lugar das
+            enciclopédias, no mundo atual, enquanto objetos simultaneamente históricos e conceptuais.</p>
+        </div>
+      </section>
+
+      <!-- Percursos -->
+      <section id="percursos" class="section section-alt">
+        <div class="container">
+          <h2>Percursos</h2>
+          <p class="section-subtitle">Escolha como deseja conhecer as enciclopédias: por ordem cronológica na Linha do
+            Tempo ou por locais de edição em Países.</p>
+
+          <div class="gallery">
+            <article class="gallery-item" data-type="image" data-src="assets/images/obra1.jpg">
+              <img src="assets/images/obra1-thumb.jpg" alt="Obra 1" loading="lazy" />
+              <div class="gallery-caption">
+                <h3>Linha do Tempo</h3>
+              </div>
+            </article>
+
+            <article class="gallery-item" data-type="video" data-src="assets/videos/obra2.mp4">
+              <video muted loop playsinline preload="metadata">
+                <source src="assets/videos/obra2.mp4#t=0.5" type="video/mp4" />
+              </video>
+              <div class="gallery-caption">
+                <h3>Países</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto / rodapé -->
+      <section id="contacto" class="section">
+        <div class="container">
+          <h2>Contacto</h2>
+          <p>Nome do(s) autor(es) · Instituição · email@exemplo.com</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
+      </footer>
     </div>
-  </section>
-
-  <!-- Contacto / rodapé -->
-  <section id="contacto" class="section">
-    <div class="container">
-      <h2>Contacto</h2>
-      <p>Nome do(s) autor(es) · Instituição · email@exemplo.com</p>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
-  </footer>
-
-  </div>
-
-  <!-- Modal/Lightbox -->
-  <div class="modal" id="modal">
-    <button class="modal-close" id="modal-close" aria-label="Fechar">&times;</button>
-    <div class="modal-content" id="modal-content"></div>
   </div>
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
