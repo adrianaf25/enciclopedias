@@ -6,6 +6,7 @@
   <title>Linha do Tempo</title>
   <meta name="description" content="Linha do tempo cronológica das enciclopédias." />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/linha-do-tempo.css" />
 </head>
 <body>
   <header class="navbar">
@@ -21,19 +22,33 @@
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
-  <main>
-    <section class="section">
-      <div class="container">
-        <p class="voltar"><a href="percursos.html">← Percursos</a></p>
-        <h2>Linha do Tempo</h2>
-        <p class="section-subtitle">A história das enciclopédias por ordem cronológica.</p>      </div>
-    </section>
-  </main>
+  <div class="timeline-page">
+    <div class="timeline" id="timeline">
+      <!-- Gerado por js/linha-do-tempo.js a partir de js/linha-do-tempo-dados.js -->
+    </div>
+    <noscript><p style="color:#fff;text-align:center;padding:2rem">Esta página precisa de JavaScript.</p></noscript>
+  </div>
 
-  <footer class="footer">
-    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
-  </footer>
+  <!-- Painel de outras enciclopédias -->
+  <div class="outras-painel" id="outras-painel">
+    <button class="outras-painel-close" id="outras-painel-close" aria-label="Fechar">&times;</button>
+    <h2 class="outras-painel-titulo" id="outras-painel-titulo"></h2>
+    <ul class="outras-painel-lista" id="outras-painel-lista"></ul>
+  </div>
+
+  <!-- Carrossel -->
+  <div class="carrossel" id="carrossel">
+    <button class="carrossel-close" id="carrossel-close" aria-label="Fechar">&times;</button>
+    <button class="carrossel-nav carrossel-prev" id="carrossel-prev" aria-label="Anterior">&#8249;</button>
+    <img class="carrossel-img" id="carrossel-img" src="" alt="Ficha da obra" />
+    <div class="ficha-html" id="ficha-html"></div>
+    <button class="carrossel-nav carrossel-next" id="carrossel-next" aria-label="Seguinte">&#8250;</button>
+    <div class="carrossel-contador" id="carrossel-contador"></div>
+  </div>
 
   <script src="js/script.js"></script>
+  <script src="js/enciclopedias-dados.js"></script>
+  <script src="js/linha-do-tempo-dados.js"></script>
+  <script src="js/linha-do-tempo.js"></script>
 </body>
 </html>
