@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enciclopédias</title>
+  <meta name="description" content="Tabela cronológica das enciclopédias gerais, com a 1.ª edição, o autor e as edições seguintes." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/enciclopedias.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Exposição<span>.</span></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="percursos.html" aria-current="page">Percursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <p class="voltar"><a href="percursos.html">← Percursos</a></p>
+        <h2>Enciclopédias</h2>
+        <p class="section-subtitle">Enciclopédias gerais por ordem cronológica. Carregue em «Ler mais» para ver o
+          título completo e na última edição para ver todas as edições seguintes.</p>
+
+        <!-- As tabelas de cada época são geradas por js/enciclopedias.js a partir de js/enciclopedias-dados.js -->
+        <div id="tabelas-epocas"></div>
+        <noscript><p>Esta tabela precisa de JavaScript para ser apresentada.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close" aria-label="Fechar">&times;</button>
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/enciclopedias-dados.js"></script>
+  <script src="js/enciclopedias.js"></script>
+</body>
+</html>

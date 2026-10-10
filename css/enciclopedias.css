@@ -1,0 +1,195 @@
+/* Página Enciclopédias — tabela por épocas, ao estilo do design das fichas
+   (linhas claras sobre fundo preto, Open Sans). */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../assets/fonts/OpenSans.ttf') format('truetype');
+  font-weight: 300 800;
+  font-display: swap;
+}
+
+:root {
+  --tabela-fundo: #000;
+  --tabela-linha: #fffdf7;
+  --tabela-texto: #000;
+  --tabela-gap: 0.9rem;     /* intervalo entre linhas brancas */
+  --tabela-espaco: 0.8em;   /* ≈ 3 espaços entre colunas */
+}
+
+.voltar {
+  margin-bottom: 1rem;
+}
+
+.voltar a {
+  color: var(--muted);
+}
+
+.voltar a:hover {
+  color: var(--accent);
+}
+
+.epoca {
+  background: var(--tabela-fundo);
+  padding: var(--tabela-gap);
+  margin-bottom: 3rem;
+  font-family: 'Open Sans', system-ui, sans-serif;
+  color: var(--tabela-texto);
+}
+
+.epoca-nome {
+  background: var(--tabela-linha);
+  text-align: center;
+  font-size: clamp(1.8rem, 5vw, 3.2rem);
+  font-weight: 700;
+  padding: 2.2rem 1rem;
+  margin-bottom: var(--tabela-gap);
+}
+
+.linha {
+  display: grid;
+  grid-template-columns: 213fr 577fr 305fr 275fr;
+  column-gap: var(--tabela-espaco);
+  align-items: start;
+  background: var(--tabela-linha);
+  padding: 0.9rem 1.2rem 1.6rem;
+  margin-bottom: var(--tabela-gap);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.linha:last-child {
+  margin-bottom: 0;
+}
+
+.linha-cabecalho {
+  font-weight: 700;
+}
+
+.linha > div {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* Título: no máximo 2 linhas, com «Ler mais» no fim da 2.ª linha */
+.titulo {
+  position: relative;
+}
+
+.titulo-texto {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.titulo.aberto .titulo-texto {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+}
+
+.ler-mais {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-left: 2.5em;
+  background: linear-gradient(90deg, rgba(255, 253, 247, 0), var(--tabela-linha) 2.2em);
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  color: var(--tabela-texto);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.titulo.aberto .ler-mais {
+  position: static;
+  padding: 0;
+  background: none;
+  margin-top: 0.2rem;
+}
+
+.ler-mais[hidden] {
+  display: none;
+}
+
+/* Última edição: abre a lista das edições seguintes */
+.btn-edicoes {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.btn-edicoes:hover,
+.ler-mais:hover {
+  color: #6b4f00;
+}
+
+.btn-edicoes:focus-visible,
+.ler-mais:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Painel das edições (dentro do modal do site) */
+.painel-edicoes {
+  background: var(--tabela-linha);
+  color: var(--tabela-texto);
+  font-family: 'Open Sans', system-ui, sans-serif;
+  border-radius: 6px;
+  padding: 1.6rem 2rem;
+  max-width: min(640px, 90vw);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.painel-edicoes h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.painel-edicoes .painel-autor {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.painel-edicoes ul {
+  list-style: none;
+}
+
+.painel-edicoes li {
+  padding: 0.35rem 0;
+  border-top: 1px solid #e4e1d8;
+}
+
+/* Telemóvel: cada obra passa a cartão, com o nome do campo antes do valor */
+@media (max-width: 768px) {
+  .linha {
+    grid-template-columns: 1fr;
+    row-gap: 0.4rem;
+    padding: 0.9rem 1rem 1.1rem;
+  }
+
+  .linha-cabecalho {
+    display: none;
+  }
+
+  .linha > div[data-campo]::before {
+    content: attr(data-campo);
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #555;
+  }
+
+  .linha > div[data-campo]:empty {
+    display: none;
+  }
+}

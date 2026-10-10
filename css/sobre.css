@@ -1,0 +1,114 @@
+/* Página Sobre — layout de exposição com imagem lateral rotativa */
+
+.sobre-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #000;
+}
+
+.sobre-conteudo {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 6rem 3rem 3rem;
+  gap: 2rem;
+}
+
+.sobre-texto h1 {
+  font-size: clamp(2.875rem, 6.7vw, 5.375rem);
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.2em;
+}
+
+.sobre-texto .subtitulo {
+  font-size: clamp(0.975rem, 1.8vw, 1.375rem);
+  color: var(--muted);
+  margin-bottom: 2em;
+}
+
+.sobre-texto p {
+  font-size: 0.985rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 1.2em;
+}
+
+.sobre-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sobre-imagem img {
+  max-height: 70vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  animation: rotacao-suave 20s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotacao-suave {
+  0%   { transform: rotate(0deg)   scale(1);    }
+  25%  { transform: rotate(2deg)   scale(1.02); }
+  50%  { transform: rotate(0deg)   scale(1);    }
+  75%  { transform: rotate(-2deg)  scale(1.02); }
+  100% { transform: rotate(0deg)   scale(1);    }
+}
+
+/* Barra de navegação inferior */
+.sobre-nav {
+  border-top: 2px solid #555;
+  margin-top: -2em;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sobre-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.sobre-nav a:hover {
+  color: var(--accent);
+}
+
+.sobre-nav .seta {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .sobre-conteudo {
+    grid-template-columns: 1fr;
+    padding: 5rem 1.5rem 2rem;
+  }
+
+  .sobre-imagem {
+    order: -1;
+  }
+
+  .sobre-imagem img {
+    max-height: 40vh;
+  }
+
+  .sobre-nav {
+    padding: 1.2rem 1.5rem;
+  }
+}
