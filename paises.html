@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Países</title>
-  <meta name="description" content="Enciclopédias por local de edição." />
+  <title>Pelo Mundo</title>
+  <meta name="description" content="Enciclopédias organizadas por continente e local de edição." />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pelo-mundo.css" />
 </head>
 <body>
   <header class="navbar">
@@ -21,19 +22,56 @@
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
-  <main>
-    <section class="section">
-      <div class="container">
-        <p class="voltar"><a href="percursos.html">← Percursos</a></p>
-        <h2>Países</h2>
-        <p class="section-subtitle">Enciclopédias organizadas por local de edição.</p>      </div>
-    </section>
-  </main>
+  <div class="mundo-page">
+    <div class="mundo-header">
+      <p class="voltar"><a href="percursos.html">&#8592; Percursos</a></p>
+      <h1 class="mundo-titulo">Pelo Mundo</h1>
+      <p class="mundo-subtitulo">Clique num continente para explorar as suas enciclopédias.</p>
+    </div>
 
-  <footer class="footer">
-    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
-  </footer>
+    <div class="mapa-container" id="mapa-container">
+      <img class="mapa-img" src="assets/images/mapa-mundo.gif" alt="Mapa-mundo" />
+      <div class="mapa-overlay"></div>
+      <!-- Botões de continente posicionados sobre o mapa -->
+      <button class="mapa-btn" id="btn-europa" data-continente="europa" style="top:22%;left:48%">Europa</button>
+      <button class="mapa-btn" id="btn-asia" data-continente="asia" style="top:28%;left:72%">Ásia</button>
+      <button class="mapa-btn" id="btn-africa" data-continente="africa" style="top:50%;left:50%">África</button>
+      <button class="mapa-btn" id="btn-america-norte" data-continente="america-norte" style="top:28%;left:22%">América do Norte</button>
+    </div>
+
+    <!-- Painel do continente selecionado -->
+    <div class="continente-painel" id="continente-painel">
+      <div class="continente-painel-header">
+        <h2 class="continente-painel-titulo" id="continente-painel-titulo"></h2>
+        <button class="continente-painel-fechar" id="continente-painel-fechar">&times;</button>
+      </div>
+      <div class="mundo-paises-lista" id="mundo-botoes"></div>
+    </div>
+  </div>
+
+  <!-- Painel de outras enciclopédias -->
+  <div class="outras-painel" id="outras-painel">
+    <button class="outras-painel-close" id="outras-painel-close" aria-label="Fechar">&times;</button>
+    <h2 class="outras-painel-titulo" id="outras-painel-titulo"></h2>
+    <ul class="outras-painel-lista" id="outras-painel-lista"></ul>
+  </div>
+
+  <!-- Carrossel -->
+  <div class="carrossel" id="carrossel">
+    <button class="carrossel-close" id="carrossel-close" aria-label="Fechar">&times;</button>
+    <button class="carrossel-nav carrossel-prev" id="carrossel-prev" aria-label="Anterior">&#8249;</button>
+    <img class="carrossel-img" id="carrossel-img" src="" alt="Ficha da obra" />
+    <div class="ficha-html" id="ficha-html"></div>
+    <button class="carrossel-nav carrossel-next" id="carrossel-next" aria-label="Seguinte">&#8250;</button>
+    <div class="carrossel-legenda" id="carrossel-legenda"></div>
+    <div class="carrossel-contador" id="carrossel-contador"></div>
+  </div>
+
+  <button class="btn-topo" id="btn-topo" aria-label="Voltar ao topo">&#8593;</button>
 
   <script src="js/script.js"></script>
+  <script src="js/enciclopedias-dados.js"></script>
+  <script src="js/linha-do-tempo-dados.js"></script>
+  <script src="js/pelo-mundo.js"></script>
 </body>
 </html>
