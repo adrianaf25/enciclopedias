@@ -14,31 +14,36 @@
     <a href="index.html" class="logo">Exposição<span>.</span></a>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="percursos.html">Percursos</a></li>
-        <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" data-pt="Sobre" data-en="About">Sobre</a></li>
+        <li><a href="percursos.html" data-pt="Percursos" data-en="Paths">Percursos</a></li>
+        <li><a href="contacto.html" aria-current="page" data-pt="Contacto" data-en="Contact">Contacto</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
   <main>
     <section class="section">
       <div class="container">
-        <h2>Contacto</h2>
+        <h2 data-pt="Contacto" data-en="Contact">Contacto</h2>
         <p>Adriana Figueiredo</p>
         <p>adrianafigueiredo25@hotmail.com</p>
-        <p>Universidade do Minho</p>
+        <p data-pt="Universidade do Minho" data-en="University of Minho">Universidade do Minho</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
+    <p data-pt="&copy; 2026 Exposição Virtual — Projeto Académico" data-en="&copy; 2026 Virtual Exhibition — Academic Project">&copy; 2026 Exposição Virtual — Projeto Académico</p>
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 
 </html>

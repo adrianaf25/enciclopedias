@@ -13,26 +13,26 @@
     <a href="index.html" class="logo">Exposição<span>.</span></a>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html" aria-current="page">Sobre</a></li>
-        <li><a href="percursos.html">Percursos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" aria-current="page" data-pt="Sobre" data-en="About">Sobre</a></li>
+        <li><a href="percursos.html" data-pt="Percursos" data-en="Paths">Percursos</a></li>
+        <li><a href="contacto.html" data-pt="Contacto" data-en="Contact">Contacto</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
   <div class="sobre-page">
     <div class="sobre-conteudo">
       <div class="sobre-texto">
-        <h1>Enciclopédia</h1>
-        <p class="subtitulo">Uma exposição virtual.</p>
-        <p>Ao longo dos séculos, a enciclopédia afirmou-se como um dispositivo de organização do saber, orientado pelos
-          ideais de universalidade e progresso. Atualmente, assistimos à sua transformação associada à digitalização da
-          informação e a mudanças profundas nos modos de produção, validação e divulgação do conhecimento.</p>
-        <p>Entendendo a enciclopédia como um reflexo do "espírito do tempo e do lugar", esta exposição apresenta a
-          história das enciclopédias e promove uma reflexão sobre as transformações do conhecimento e sobre o lugar das
-          enciclopédias, no mundo atual, enquanto objetos simultaneamente históricos e conceptuais.</p>
+        <h1 data-pt="Enciclopédia" data-en="Encyclopaedia">Enciclopédia</h1>
+        <p class="subtitulo" data-pt="Uma exposição virtual." data-en="A virtual exhibition.">Uma exposição virtual.</p>
+        <p data-pt="Ao longo dos séculos, a enciclopédia afirmou-se como um dispositivo de organização do saber, orientado pelos ideais de universalidade e progresso. Atualmente, assistimos à sua transformação associada à digitalização da informação e a mudanças profundas nos modos de produção, validação e divulgação do conhecimento." data-en="Over the centuries, the encyclopaedia established itself as a device for organising knowledge, guided by the ideals of universality and progress. Today, we are witnessing its transformation linked to the digitalisation of information and profound changes in the modes of production, validation and dissemination of knowledge.">Ao longo dos séculos, a enciclopédia afirmou-se como um dispositivo de organização do saber, orientado pelos ideais de universalidade e progresso. Atualmente, assistimos à sua transformação associada à digitalização da informação e a mudanças profundas nos modos de produção, validação e divulgação do conhecimento.</p>
+        <p data-pt="Entendendo a enciclopédia como um reflexo do &quot;espírito do tempo e do lugar&quot;, esta exposição apresenta a história das enciclopédias e promove uma reflexão sobre as transformações do conhecimento e sobre o lugar das enciclopédias, no mundo atual, enquanto objetos simultaneamente históricos e conceptuais." data-en="Understanding the encyclopaedia as a reflection of the &quot;spirit of the time and place&quot;, this exhibition presents the history of encyclopaedias and promotes a reflection on the transformations of knowledge and on the place of encyclopaedias in today's world as objects that are simultaneously historical and conceptual.">Entendendo a enciclopédia como um reflexo do "espírito do tempo e do lugar", esta exposição apresenta a história das enciclopédias e promove uma reflexão sobre as transformações do conhecimento e sobre o lugar das enciclopédias, no mundo atual, enquanto objetos simultaneamente históricos e conceptuais.</p>
       </div>
       <div class="sobre-imagem">
         <img src="assets/images/Percursos/Martianus M. Feliz Capella/INTERNET ARCHIVE - 1532 - Martiani Minei Capellae De nuptiis philologiae et Mercurii, libri 2. Ad haec de septem artibus liberalibus libri eiusdem singuli, ... Accurate ad ueterum exemplariorum fidem à mendis, quibus scatebant, uindicati, ...jpg" alt="Página de um livro antigo — De nuptiis Philologiae et Mercurii, Martianus Capella, 1532" />
@@ -41,16 +41,17 @@
 
     <nav class="sobre-nav" aria-label="Percursos">
       <a href="linha-do-tempo.html">
-        Linha do Tempo
+        <span data-pt="Linha do Tempo" data-en="Timeline">Linha do Tempo</span>
         <span class="seta" aria-hidden="true">◄</span>
       </a>
       <a href="paises.html">
-        Pelo Mundo
+        <span data-pt="Pelo Mundo" data-en="Around the World">Pelo Mundo</span>
         <span class="seta" aria-hidden="true">►</span>
       </a>
     </nav>
   </div>
 
   <script src="js/script.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

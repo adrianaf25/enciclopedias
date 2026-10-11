@@ -14,30 +14,33 @@
     <a href="index.html" class="logo">Exposição<span>.</span></a>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="percursos.html" aria-current="page">Percursos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" data-pt="Sobre" data-en="About">Sobre</a></li>
+        <li><a href="percursos.html" aria-current="page" data-pt="Percursos" data-en="Paths">Percursos</a></li>
+        <li><a href="contacto.html" data-pt="Contacto" data-en="Contact">Contacto</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
   <div class="mundo-page">
     <div class="mundo-header">
-      <p class="voltar"><a href="percursos.html">&#8592; Percursos</a></p>
-      <h1 class="mundo-titulo">Pelo Mundo</h1>
-      <p class="mundo-subtitulo">Clique num continente para explorar as suas enciclopédias.</p>
+      <p class="voltar"><a href="percursos.html" data-pt="&#8592; Percursos" data-en="&#8592; Paths">&#8592; Percursos</a></p>
+      <h1 class="mundo-titulo" data-pt="Pelo Mundo" data-en="Around the World">Pelo Mundo</h1>
+      <p class="mundo-subtitulo" data-pt="Clique num continente para explorar as suas enciclopédias." data-en="Click on a continent to explore its encyclopaedias.">Clique num continente para explorar as suas enciclopédias.</p>
     </div>
 
     <div class="mapa-container" id="mapa-container">
       <img class="mapa-img" src="assets/images/mapa-mundo.gif" alt="Mapa-mundo" />
       <div class="mapa-overlay"></div>
-      <!-- Botões de continente posicionados sobre o mapa -->
-      <button class="mapa-btn" id="btn-europa" data-continente="europa" style="top:22%;left:48%">Europa</button>
-      <button class="mapa-btn" id="btn-asia" data-continente="asia" style="top:28%;left:72%">Ásia</button>
-      <button class="mapa-btn" id="btn-africa" data-continente="africa" style="top:50%;left:50%">África</button>
-      <button class="mapa-btn" id="btn-america-norte" data-continente="america-norte" style="top:28%;left:22%">América do Norte</button>
+      <button class="mapa-btn" id="btn-europa" data-continente="europa" style="top:22%;left:48%" data-pt="Europa" data-en="Europe">Europa</button>
+      <button class="mapa-btn" id="btn-asia" data-continente="asia" style="top:28%;left:72%" data-pt="Ásia" data-en="Asia">Ásia</button>
+      <button class="mapa-btn" id="btn-africa" data-continente="africa" style="top:50%;left:50%" data-pt="África" data-en="Africa">África</button>
+      <button class="mapa-btn" id="btn-america-norte" data-continente="america-norte" style="top:28%;left:22%" data-pt="América do Norte" data-en="North America">América do Norte</button>
     </div>
 
     <!-- Painel do continente selecionado -->
@@ -75,5 +78,6 @@
   <script src="js/linha-do-tempo-dados.js"></script>
   <script src="js/carrossel.js"></script>
   <script src="js/pelo-mundo.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

@@ -55,11 +55,12 @@
   line-height: 1.4;
 }
 
-.ficha-cell-value-en {
+.ficha-cell-value-trad {
   font-weight: 400;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #555;
-  margin-top: 0.2rem;
+  margin-top: 0.25rem;
+  font-style: normal;
 }
 
 .ficha-row-titulo .ficha-cell:first-child {
@@ -91,16 +92,6 @@
   white-space: pre-line;
 }
 
-.ficha-text-content-en {
-  font-weight: 400;
-  font-size: 0.85rem;
-  color: #555;
-  line-height: 1.6;
-  white-space: pre-line;
-  margin-top: 0.8rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid #ddd;
-}
 
 .ficha-text-collapsed {
   max-height: 8em;

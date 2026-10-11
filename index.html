@@ -16,8 +16,14 @@
       <source src="assets/videos/PÁGINA DE ENTRADA - FIM.mp4?v=2" type="video/mp4" />
     </video>
     <div class="entry-overlay"></div>
-    <button class="entry-button" id="entry-button" type="button" aria-label="Entrar na exposição">
-      <img src="assets/images/Ícone Entrar.png" alt="" />
+    <div class="entry-content">
+      <h1 class="entry-title" data-pt="Enciclopédia" data-en="Encyclopaedia">Enciclopédia</h1>
+      <p class="entry-subtitle" data-pt="Uma exposição virtual." data-en="A virtual exhibition.">Uma exposição virtual.</p>
+    </div>
+    <button class="entry-button" id="entry-button" type="button" aria-label="Entrar">
+      <img src="assets/images/Ícone Entrar.png" alt="Entrar"
+           data-pt-src="assets/images/Ícone Entrar.png"
+           data-en-src="assets/images/ENTER.png" />
     </button>
   </section>
 
@@ -27,17 +33,20 @@
     <section id="home" class="hero">
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1>A ENCICLOPÉDIA</h1>
-
-
-        <a href="sobre.html" class="btn">Iniciar a visita</a>
+        <h1 data-pt="A ENCICLOPÉDIA" data-en="THE ENCYCLOPAEDIA">A ENCICLOPÉDIA</h1>
+        <a href="sobre.html" class="btn" data-pt="Iniciar a visita" data-en="Start the visit">Iniciar a visita</a>
       </div>
-      
     </section>
 
   </div>
 
+  <div class="lang-switcher" id="lang-switcher-entry">
+    <button class="lang-btn lang-active" data-lang="pt">PT</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+  </div>
+
   <script src="js/script.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 
 </html>

@@ -166,7 +166,7 @@ window.TIMELINE_OBRAS = [
    "headerImg": "assets/images/Percursos/Solinus/Collectanea rerum memorabilium - Collectanea rerum memorabilium - Solinus por Solinus - Leiden University Libraries, Netherlands - Public Domain..jpeg",
    "headerLegenda": "Collectanea rerum memorabilium — Solinus. Leiden University Libraries, Netherlands. Public Domain.",
    "titulo": "Collectanea rerum memorabilium (Polyhistor)",
-   "titulo_en": "Collection of Memorable Things",
+   "titulo_en": "Collection of Memorable Things (Polyhistor)",
    "autor": "Caio Júlio Solino",
    "autor_en": "Gaius Julius Solinus",
    "ano": "Meados do séc. III",
@@ -293,7 +293,7 @@ window.TIMELINE_OBRAS = [
    "headerImg": "assets/images/Percursos/Santo Isidoro de Sevilha/1- Edição 1577_ - ATRIBUIÇÃO_ Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
    "headerLegenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.",
    "titulo": "Originum sive Etymologiarum libri XX (Etimologias)",
-   "titulo_en": "Twenty Books of Origins or Etymologies",
+   "titulo_en": "Twenty Books of Origins or Etymologies (Etymologies)",
    "autor": "Santo Isidoro de Sevilha",
    "autor_en": "Saint Isidore of Seville",
    "ano": "Antes de 636",
@@ -521,7 +521,7 @@ window.TIMELINE_OBRAS = [
    "headerImg": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0082.jpg",
    "headerLegenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France",
    "titulo": "De diversis artibus (Schedula diversarum artium)",
-   "titulo_en": "On Diverse Arts",
+   "titulo_en": "On Diverse Arts (Schedule of Diverse Arts)",
    "autor": "Theophilus Presbyter (pseudónimo)",
    "autor_en": "Theophilus Presbyter, pseudonym",
    "ano": "Possivelmente início do séc. XII",
@@ -771,9 +771,9 @@ window.TIMELINE_OBRAS = [
   "epoca": "Idade Média",
   "fichaHTML": true,
   "fichaData": {
-   "headerImg": "assets/images/Fichas/thumbs/ficha_linha20_Gervasio_de_Tilbury_thumb.jpg",
+   "headerImg": "assets/images/Percursos/Gervásio de Tilbury/Gervasio_ms-1.jpg",
    "titulo": "Otia imperialia (Solatium imperatoris)",
-   "titulo_en": "Recreation for an Emperor",
+   "titulo_en": "Imperial Leisure (Consolation of the Emperor)",
    "autor": "Gervásio de Tilbury",
    "autor_en": "Gervase of Tilbury",
    "ano": "c. 1211",
@@ -786,7 +786,15 @@ window.TIMELINE_OBRAS = [
    "edicoes_en": "Leibniz, Hanover, 1707–10\nLiebrecht, 1856, 3rd part\nExcerpts: Duchesne, 1636–49, and Mader, 1673"
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha20_Gervasio_de_Tilbury_thumb.jpg",
-  "galeria": []
+  "galeria": [
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio_ms-1.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio_ms-2.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio_ms-3.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio_ms-4.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio2_ms-1.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio2_ms-2.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."},
+    {"src": "assets/images/Percursos/Gervásio de Tilbury/Gervasio2_ms-3.jpg", "legenda": "Manuscrito [1300-1400] — Incipiut otia imperalia [Ms 5]. Madrid: Ministerio de Educación, Cultura y Deporte. Subdirección General de Coordinación Bibliotecaria, 2016."}
+   ]
  },
  {
   "id": "linha21",
@@ -1340,7 +1348,7 @@ window.TIMELINE_OBRAS = [
    "headerImg": "assets/images/Percursos/Brockhaus/PAG. 0 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only..jpg",
    "headerLegenda": "Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1, 1832. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only.",
    "titulo": "Conversations-Lexikon (Brockhaus)",
-   "titulo_en": "Conversation Lexicon",
+   "titulo_en": "Conversation Lexicon (Brockhaus)",
    "autor": "Löbel e Franke; depois F. A. Brockhaus",
    "autor_en": "Löbel and Franke; later F. A. Brockhaus",
    "ano": "1796–1808",

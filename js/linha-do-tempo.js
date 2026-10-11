@@ -5,6 +5,12 @@
   if (!timeline || !obras.length) return;
 
   var EPOCAS = ['Antiguidade', 'Idade Média', 'Idade Moderna', 'Idade Contemporânea'];
+  var EPOCAS_EN = {
+    'Antiguidade': 'Antiquity',
+    'Idade Média': 'Middle Ages',
+    'Idade Moderna': 'Early Modern Age',
+    'Idade Contemporânea': 'Contemporary Age'
+  };
 
   // Agrupa fichas por época
   var grupos = {};
@@ -29,7 +35,10 @@
 
   function abrirOutras(ep) {
     var lista = gruposEnc[ep] || [];
-    painelTitulo.textContent = ep + ' — Outras enciclopédias';
+    var lang = document.documentElement.lang || 'pt';
+    var epNome = lang === 'en' ? (EPOCAS_EN[ep] || ep) : ep;
+    var outrasLabel = lang === 'en' ? 'Other encyclopaedias' : 'Outras enciclopédias';
+    painelTitulo.textContent = epNome + ' — ' + outrasLabel;
     painelLista.innerHTML = '';
     lista.forEach(function (enc) {
       var li = document.createElement('li');
@@ -74,6 +83,8 @@
     div.className = 'timeline-item ' + (i % 2 === 0 ? 'esquerda' : 'direita');
 
     var h2 = document.createElement('h2');
+    h2.setAttribute('data-pt', ep);
+    h2.setAttribute('data-en', EPOCAS_EN[ep] || ep);
     h2.textContent = ep;
     div.appendChild(h2);
 
@@ -81,21 +92,22 @@
     botoes.className = 'timeline-botoes';
 
     items.forEach(function (obra) {
+      var nomeOrig = window._carrossel ? window._carrossel.nomeOriginal(obra.nome) : obra.nome;
       var btn = document.createElement('button');
       btn.className = 'timeline-botao';
       btn.type = 'button';
-      btn.title = obra.nome;
-      btn.setAttribute('aria-label', obra.nome);
+      btn.title = nomeOrig;
+      btn.setAttribute('aria-label', nomeOrig);
 
       var img = document.createElement('img');
       img.src = obra.thumb;
-      img.alt = obra.nome;
+      img.alt = nomeOrig;
       img.loading = 'lazy';
       btn.appendChild(img);
 
       var label = document.createElement('span');
       label.className = 'timeline-botao-nome';
-      label.textContent = obra.nome;
+      label.textContent = nomeOrig;
       btn.appendChild(label);
 
       btn.addEventListener('click', function () { abrirCarrossel(obra); });
@@ -116,6 +128,8 @@
 
       var labelOutras = document.createElement('span');
       labelOutras.className = 'timeline-botao-nome';
+      labelOutras.setAttribute('data-pt', 'Outras enciclopédias');
+      labelOutras.setAttribute('data-en', 'Other encyclopaedias');
       labelOutras.textContent = 'Outras enciclopédias';
       btnOutras.appendChild(labelOutras);
 

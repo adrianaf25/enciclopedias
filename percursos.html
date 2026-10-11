@@ -12,36 +12,39 @@
     <a href="index.html" class="logo">Exposição<span>.</span></a>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="percursos.html" aria-current="page">Percursos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" data-pt="Sobre" data-en="About">Sobre</a></li>
+        <li><a href="percursos.html" aria-current="page" data-pt="Percursos" data-en="Paths">Percursos</a></li>
+        <li><a href="contacto.html" data-pt="Contacto" data-en="Contact">Contacto</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
   <main>
     <section class="section section-alt">
       <div class="container">
-        <h2>Percursos</h2>
-        <p class="section-subtitle">Escolha como deseja conhecer as enciclopédias: por ordem cronológica na Linha do
-          Tempo ou por locais de edição em Pelo Mundo.</p>
+        <h2 data-pt="Percursos" data-en="Paths">Percursos</h2>
+        <p class="section-subtitle" data-pt="Escolha como deseja conhecer as enciclopédias: por ordem cronológica na Linha do Tempo ou por locais de edição em Pelo Mundo." data-en="Choose how you'd like to explore the encyclopaedias: in chronological order on the Timeline or by place of publication in Around the World.">Escolha como deseja conhecer as enciclopédias: por ordem cronológica na Linha do Tempo ou por locais de edição em Pelo Mundo.</p>
 
         <div class="gallery">
           <a class="gallery-item" href="linha-do-tempo.html">
             <img src="assets/images/Linha do Tempo.jpg" alt="Percurso Linha do Tempo" loading="lazy" />
             <div class="gallery-caption">
-              <h3>Linha do Tempo</h3>
-              <p>Explora por ordem cronológica.</p>
+              <h3 data-pt="Linha do Tempo" data-en="Timeline">Linha do Tempo</h3>
+              <p data-pt="Explora por ordem cronológica." data-en="Explore in chronological order.">Explora por ordem cronológica.</p>
             </div>
           </a>
 
           <a class="gallery-item" href="paises.html">
             <img src="assets/images/Países.jpg" alt="Percurso Pelo Mundo" loading="lazy" />
             <div class="gallery-caption">
-              <h3>Pelo Mundo</h3>
-              <p>Explora por local de edição.</p>
+              <h3 data-pt="Pelo Mundo" data-en="Around the World">Pelo Mundo</h3>
+              <p data-pt="Explora por local de edição." data-en="Explore by place of publication.">Explora por local de edição.</p>
             </div>
           </a>
 
@@ -51,7 +54,7 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 Exposição Virtual — Projeto Académico</p>
+    <p data-pt="&copy; 2026 Exposição Virtual — Projeto Académico" data-en="&copy; 2026 Virtual Exhibition — Academic Project">&copy; 2026 Exposição Virtual — Projeto Académico</p>
   </footer>
 
   <div class="modal" id="modal">
@@ -60,5 +63,6 @@
   </div>
 
   <script src="js/script.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

@@ -14,20 +14,24 @@
     <a href="index.html" class="logo">Exposição<span>.</span></a>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="percursos.html" aria-current="page">Percursos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="index.html" data-pt="Início" data-en="Home">Início</a></li>
+        <li><a href="sobre.html" data-pt="Sobre" data-en="About">Sobre</a></li>
+        <li><a href="percursos.html" aria-current="page" data-pt="Percursos" data-en="Paths">Percursos</a></li>
+        <li><a href="contacto.html" data-pt="Contacto" data-en="Contact">Contacto</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <button class="nav-toggle" aria-label="Abrir menu">☰</button>
   </header>
 
   <div class="timeline-page">
     <div class="timeline-header">
-      <p class="voltar"><a href="percursos.html">&#8592; Percursos</a></p>
-      <h1 class="timeline-titulo">Linha do Tempo</h1>
-      <p class="timeline-subtitulo">Percorra as épocas da História para explorar as suas enciclopédias.</p>
+      <p class="voltar"><a href="percursos.html" data-pt="&#8592; Percursos" data-en="&#8592; Paths">&#8592; Percursos</a></p>
+      <h1 class="timeline-titulo" data-pt="Linha do Tempo" data-en="Timeline">Linha do Tempo</h1>
+      <p class="timeline-subtitulo" data-pt="Percorra as épocas da História para explorar as suas enciclopédias." data-en="Browse through the ages of History to explore their encyclopaedias.">Percorra as épocas da História para explorar as suas enciclopédias.</p>
     </div>
     <div class="timeline" id="timeline">
       <!-- Gerado por js/linha-do-tempo.js a partir de js/linha-do-tempo-dados.js -->
@@ -60,5 +64,6 @@
   <script src="js/linha-do-tempo-dados.js"></script>
   <script src="js/carrossel.js"></script>
   <script src="js/linha-do-tempo.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

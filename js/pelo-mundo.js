@@ -12,6 +12,18 @@
     'america-norte': 'América do Norte'
   };
 
+  var CONTINENTES_EN = {
+    'europa': 'Europe',
+    'asia': 'Asia',
+    'africa': 'Africa',
+    'america-norte': 'North America'
+  };
+
+  function getLang() { return document.documentElement.lang || 'pt'; }
+  function continenteNome(cid) {
+    return getLang() === 'en' ? (CONTINENTES_EN[cid] || CONTINENTES[cid]) : CONTINENTES[cid];
+  }
+
   var PAIS_CONTINENTE = {
     'Grécia': 'europa', 'Grécia (Atenas)': 'europa',
     'Itália': 'europa', 'Provavelmente Itália': 'europa', 'Itália (atual)': 'europa',
@@ -99,8 +111,9 @@
   var painelLista = document.getElementById('outras-painel-lista');
   var painelClose = document.getElementById('outras-painel-close');
 
-  function abrirOutras(continenteNome, lista) {
-    painelTitulo.textContent = continenteNome + ' — Outras enciclopédias';
+  function abrirOutras(cNome, lista) {
+    var outrasLabel = getLang() === 'en' ? 'Other encyclopaedias' : 'Outras enciclopédias';
+    painelTitulo.textContent = cNome + ' — ' + outrasLabel;
     painelLista.innerHTML = '';
     var porPais = {};
     lista.forEach(function (enc) {
@@ -158,7 +171,7 @@
   var continenteAtivo = null;
 
   function abrirContinente(cid) {
-    var nome = CONTINENTES[cid];
+    var nome = continenteNome(cid);
     if (!nome) return;
 
     if (continenteAtivo === cid) {
@@ -204,18 +217,19 @@
       botoes.className = 'mundo-botoes';
 
       porPais[pais].forEach(function (obra) {
+        var nomeOrig = window._carrossel ? window._carrossel.nomeOriginal(obra.nome) : obra.nome;
         var btn = document.createElement('button');
         btn.className = 'mundo-botao';
         btn.type = 'button';
-        btn.title = obra.nome;
+        btn.title = nomeOrig;
         var img = document.createElement('img');
         img.src = obra.thumb;
-        img.alt = obra.nome;
+        img.alt = nomeOrig;
         img.loading = 'lazy';
         btn.appendChild(img);
         var label = document.createElement('span');
         label.className = 'mundo-botao-nome';
-        label.textContent = obra.nome;
+        label.textContent = nomeOrig;
         btn.appendChild(label);
         btn.addEventListener('click', function () { abrirCarrossel(obra); });
         botoes.appendChild(btn);
@@ -230,7 +244,8 @@
       outrasSecao.className = 'mundo-pais-grupo';
       var outrasLabel = document.createElement('div');
       outrasLabel.className = 'mundo-pais-nome';
-      outrasLabel.textContent = 'Outras enciclopédias';
+      var outrasText = getLang() === 'en' ? 'Other encyclopaedias' : 'Outras enciclopédias';
+      outrasLabel.textContent = outrasText;
       outrasSecao.appendChild(outrasLabel);
 
       var outrasBotoes = document.createElement('div');
@@ -244,7 +259,8 @@
       btnOutras.appendChild(circulo);
       var labelOutras = document.createElement('span');
       labelOutras.className = 'mundo-botao-nome';
-      labelOutras.textContent = 'Ver lista (' + encList.length + ')';
+      var verListaText = getLang() === 'en' ? 'See list' : 'Ver lista';
+      labelOutras.textContent = verListaText + ' (' + encList.length + ')';
       btnOutras.appendChild(labelOutras);
       (function (n, l) {
         btnOutras.addEventListener('click', function () { abrirOutras(n, l); });
@@ -272,6 +288,14 @@
   });
 
   painelFechar.addEventListener('click', fecharContinente);
+
+  document.addEventListener('langchange', function () {
+    if (continenteAtivo) {
+      var cid = continenteAtivo;
+      continenteAtivo = null;
+      abrirContinente(cid);
+    }
+  });
 
   // Esconde botões de continentes sem dados
   mapaBtns.forEach(function (btn) {
