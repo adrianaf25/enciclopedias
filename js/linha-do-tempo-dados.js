@@ -7,7 +7,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Speusippus/Speusippos - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-   "headerLegenda": "Speusippos, 1493. Rijksmuseum, Netherlands. Public Domain.",
+   "headerLegenda": "Espeusipo - 1493. Rijksmuseum, Netherlands. Public Domain.",
    "titulo": "Obra enciclopédica (fragmentos)",
    "titulo_en": "Encyclopaedic work (fragments)",
    "autor": "Espeusipo",
@@ -25,11 +25,11 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Speusippus/Speusippos - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-    "legenda": "Speusippos, 1493. Rijksmuseum, Netherlands. Public Domain."
+    "legenda": "Espeusipo - 1493. Rijksmuseum, Netherlands. Public Domain."
    },
    {
     "src": "assets/images/Percursos/Speusippus/Thomas Stanley, 1655, The history of philosophy, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Thomas Stanley, 1655, The history of philosophy. Public domain, via Wikimedia Commons."
+    "legenda": "Espeusipo - Thomas Stanley, 1655, The History of Philosophy. Public domain, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Speusippus/De Speusippi academici scriptis (em Internet Archive) - CITAÇÃO MEMSO DE SPEUSIPPUS SUBLINHADA.png",
@@ -44,7 +44,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Aristóteles/Aristotle - Publication date c. 1500 (Internet Archive).jpg",
-   "headerLegenda": "Aristotle — Publication date c. 1500. Internet Archive.",
+   "headerLegenda": "Aristóteles - c. 1500. Internet Archive.",
    "titulo": "Escritos didáticos do Liceu",
    "titulo_en": "Teaching writings of the Lyceum",
    "autor": "Aristóteles",
@@ -62,7 +62,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Aristóteles/Aristotle - Publication date c. 1500 (Internet Archive).jpg",
-    "legenda": "Aristotle — Publication date c. 1500. Internet Archive."
+    "legenda": "Aristóteles - c. 1500. Internet Archive."
    }
   ]
  },
@@ -73,7 +73,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Catão/Marcus Porcius Cato - The original uploader was Dr. Manuel at German Wikipedia., Public domain, via Wikimedia Commons.jpeg",
-   "headerLegenda": "Marcus Porcius Cato — The original uploader was Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Catão, o Censor - Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons.",
    "titulo": "Praecepta ad Filium",
    "titulo_en": "Precepts to His Son",
    "autor": "Catão, o Censor",
@@ -91,7 +91,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Catão/Marcus Porcius Cato - The original uploader was Dr. Manuel at German Wikipedia., Public domain, via Wikimedia Commons.jpeg",
-    "legenda": "Marcus Porcius Cato — The original uploader was Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons."
+    "legenda": "Catão, o Censor - Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -102,7 +102,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Varrão/Marco Terenzio Varrone - Andre Thevet, Public domain, via Wikimedia Commons.jpg",
-   "headerLegenda": "Marco Terenzio Varrone — Andre Thevet. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Varrão - Andre Thevet. Public domain, via Wikimedia Commons.",
    "titulo": "Disciplinarum libri IX; Rerum divinarum et humanarum antiquitates; Imagines",
    "titulo_en": "Nine Books of Disciplines; Antiquities of Human and Divine Things; Portraits",
    "autor": "Marco Terêncio Varrão",
@@ -120,7 +120,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Varrão/Marco Terenzio Varrone - Andre Thevet, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Marco Terenzio Varrone — Andre Thevet. Public domain, via Wikimedia Commons."
+    "legenda": "Varrão - Andre Thevet. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -131,7 +131,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Plínio/Plíno, o Velho - 1850 - Geoffrey, Public domain, via Wikimedia Commons.jpg",
-   "headerLegenda": "Plíno, o Velho — 1850. Geoffrey. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Plínio, o Velho - Geoffrey, 1850. Public domain, via Wikimedia Commons.",
    "titulo": "Historia Naturalis",
    "titulo_en": "Natural History",
    "autor": "Plínio, o Velho",
@@ -153,7 +153,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Plínio/Plíno, o Velho - 1850 - Geoffrey, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Plíno, o Velho — 1850. Geoffrey. Public domain, via Wikimedia Commons."
+    "legenda": "Plínio, o Velho - Geoffrey, 1850. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -186,7 +186,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Solinus/Solinus - Gaius Julius Solinus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-    "legenda": "Solinus — Gaius Julius Solinus, 1493. Rijksmuseum, Netherlands. Public Domain."
+    "legenda": "Solino - 1493. Rijksmuseum, Netherlands. Public Domain."
    }
   ]
  },
@@ -254,7 +254,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Cassiodoro/Cassiodorus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-   "headerLegenda": "Cassiodorus — 1493. Rijksmuseum, Netherlands. Public Domain.",
+   "headerLegenda": "Cassiodoro - 1493. Rijksmuseum, Netherlands. Public Domain.",
    "titulo": "Institutiones divinarum et humanarum lectionum",
    "titulo_en": "Institutions of Divine and Human Readings",
    "autor": "Cassiodoro",
@@ -272,7 +272,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Cassiodoro/Cassiodorus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-    "legenda": "Cassiodorus — 1493. Rijksmuseum, Netherlands. Public Domain."
+    "legenda": "Cassiodoro - 1493. Rijksmuseum, Netherlands. Public Domain."
    },
    {
     "src": "assets/images/Percursos/Cassiodoro/parte 1 (826 d.C.) EUROPEANA - Cassiodorus, F. M. A. Cassiodorus. Fragment..jpg",
@@ -313,7 +313,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Santo Isidoro de Sevilha/1775 - [Retrato de San Isidoro] - Mariano Salvator Maella invenit. _ Emmanuel Salvator Carmona incidit. - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
-    "legenda": "[Retrato de San Isidoro] — Mariano Salvator Maella invenit; Emmanuel Salvator Carmona incidit, 1775. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+    "legenda": "Santo Isidoro de Sevilha - Mariano Salvator Maella (inv.) / Emmanuel Salvator Carmona (inc.), 1775. Biblioteca Nacional de Espanha."
    },
    {
     "src": "assets/images/Percursos/Santo Isidoro de Sevilha/2 - Edição 1577_ - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
@@ -382,7 +382,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Hrabanus Maurus/Hrabanus, Maurus, 780-856 [Abgebildet] -- (GND_ 118553909) .jpg",
-    "legenda": "Hrabanus Maurus, 780-856 [Abgebildet] (GND: 118553909). Source: http://data.onb.ac.at/rec/baa7529338/ ÖNB Viewer / Österreichische Nationalbibliothek (Austrian National Library)."
+    "legenda": "Hrabano Mauro - Hrabanus Maurus, 780–856 (GND: 118553909). ÖNB Viewer / Österreichische Nationalbibliothek (Austrian National Library)."
    }
   ]
  },
@@ -504,11 +504,11 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Michael Psellos/Michael Psellos (left) with his student, Byzantine Emperor Michael VII Doukas - 12th-13th century - Source_Codex 234, f. 245a, Mount Athos, Pantokrator Monastery.jpg",
-    "legenda": "Michael Psellos (left) with his student, Byzantine Emperor Michael VII Doukas, 12th-13th century. Source: Codex 234, f. 245a, Mount Athos, Pantokrator Monastery."
+    "legenda": "Miguel Pselo - Séc. XII–XIII. Codex 234, f. 245a, Mount Athos, Pantokrator Monastery."
    },
    {
     "src": "assets/images/Percursos/Michael Psellos/Michael Psellos, De omnifaria doctrina, in ms. Florence, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r - Date _ 1347 - Source_ 2d copy.jpg",
-    "legenda": "Michael Psellos, De omnifaria doctrina, in ms. Florence, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r, 1347."
+    "legenda": "Miguel Pselo - De omnifaria doctrina, ms. Florença, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r, 1347."
    }
   ]
  },
@@ -658,7 +658,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Lambert of Saint-Omer/Lambert of Saint-Omer writing the Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg",
-    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+    "legenda": "Lambert de Saint-Omer - Liber Floridus, MS 92, folio 13r. Universiteitsbibliotheek Ghent. Public Domain."
    }
   ]
  },
@@ -669,7 +669,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Honorius Augustodunensis/Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282) (source - PÔR LINK DO EXCEL).jpg",
-   "headerLegenda": "Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282). Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Portrait_of_Honorius_Augustodunensis._St._Gallen,_Stiftsbibliothek,_Cod._Sang._1075,_p._282.jpg",
+   "headerLegenda": "Honório Augustodunense - St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282. Wikimedia Commons.",
    "titulo": "Imago mundi",
    "titulo_en": "Image of the World",
    "autor": "Honório Augustodunense",
@@ -687,7 +687,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Honorius Augustodunensis/Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282) (source - PÔR LINK DO EXCEL).jpg",
-    "legenda": "Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282). Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Portrait_of_Honorius_Augustodunensis._St._Gallen,_Stiftsbibliothek,_Cod._Sang._1075,_p._282.jpg"
+    "legenda": "Honório Augustodunense - St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282. Wikimedia Commons."
    }
   ]
  },
@@ -698,7 +698,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_(mignature_anglaise_anonyme,_XIIIe_siècle).png",
-   "headerLegenda": "Hugues de Saint-Victor (miniature anglaise anonyme, XIIIe siècle).",
+   "headerLegenda": "Hugo de São Vítor - Miniatura inglesa anónima, séc. XIII.",
    "titulo": "Didascalicon: de studio legendi",
    "titulo_en": "Didascalicon: On the Study of Reading",
    "autor": "Hugo de São Vítor",
@@ -716,11 +716,11 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_(mignature_anglaise_anonyme,_XIIIe_siècle).png",
-    "legenda": "Hugues de Saint-Victor (miniature anglaise anonyme, XIIIe siècle)."
+    "legenda": "Hugo de São Vítor - Miniatura inglesa anónima, séc. XIII."
    },
    {
     "src": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_rédige_le_Didascalicon_-_Parchemin._Vucanius_45,_f°_130_(Leyde,_Bibliothek_der_Rijkuniversiteit).png",
-    "legenda": "Hugues de Saint-Victor (✝ 1141) rédige le Didascalicon, miniature extraite d'un parchemin: Vucanius 45, f° 130, conservé à Leyde (Bibliotheek der Rijksuniversiteit), 13th century."
+    "legenda": "Hugo de São Vítor - Hugo de São Vítor redige o Didascalicon. Pergaminho Vucanius 45, f° 130, Leyde, Bibliothek der Rijkuniversiteit, séc. XIII."
    }
   ]
  },
@@ -795,7 +795,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg",
-   "headerLegenda": "Retrato de Bartholomeus Anglicus, 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Bartolomeu Inglês - 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons.",
    "titulo": "De proprietatibus rerum",
    "titulo_en": "On the Properties of Things",
    "autor": "Bartolomeu Inglês",
@@ -813,7 +813,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Bartholomeus Anglicus, 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons."
+    "legenda": "Bartolomeu Inglês - 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -824,7 +824,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Vicente de Beauvais/Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 - Medieval scribe and illuminator, Public domain, via Wikimedia Commons - .jpg",
-   "headerLegenda": "Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 — Medieval scribe and illuminator. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Vicente de Beauvais - Speculum Historiale (manuscrito), 1478. Public domain, via Wikimedia Commons.",
    "titulo": "Speculum maius",
    "titulo_en": "The Great Mirror",
    "autor": "Vicente de Beauvais",
@@ -842,7 +842,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Vicente de Beauvais/Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 - Medieval scribe and illuminator, Public domain, via Wikimedia Commons - .jpg",
-    "legenda": "Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 — Medieval scribe and illuminator. Public domain, via Wikimedia Commons."
+    "legenda": "Vicente de Beauvais - Speculum Historiale (manuscrito), 1478. Public domain, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Vicente de Beauvais/Manuscript of Vincent of Beauvais_s Speculum Doctrinale (manuscript copy from 1301-1400) - Vincent of Beauvais, Public domain, via Wikimedia Commons.jpg",
@@ -936,11 +936,11 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Brunetto Latini/Brunetto Latini - Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Brunetto Latini. Public domain, via Wikimedia Commons."
+    "legenda": "Brunetto Latini - Public domain, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Brunetto Latini/Brunetto Latini, di Cristofano dell_Altissimo, 1589-99. Galleria degli Uffizi, Firenze. Serie Gioviana, Inv. n. 137. - Fabrizio Garrisi, CC0, via Wikimedia Commons.jpg",
-    "legenda": "Brunetto Latini, di Cristofano dell'Altissimo, 1589-99. Galleria degli Uffizi, Firenze. Serie Gioviana, Inv. n. 137 — Fabrizio Garrisi. CC0, via Wikimedia Commons."
+    "legenda": "Brunetto Latini - Cristofano dell'Altissimo, 1589–99. Galleria degli Uffizi, Firenze. Fabrizio Garrisi, CC0, via Wikimedia Commons."
    }
   ]
  },
@@ -1057,7 +1057,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Paul Skalich/Retrato - Paul Skalich - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Paul Skalich. Rijksmuseum. CC0, via Wikimedia Commons."
+    "legenda": "Paul Scalich - Rijksmuseum. CC0, via Wikimedia Commons."
    }
   ]
  },
@@ -1094,7 +1094,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Louis Moreri/Retrato Louis Moreri - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Louis Moréri. Rijksmuseum. CC0, via Wikimedia Commons."
+    "legenda": "Louis Moréri - Rijksmuseum. CC0, via Wikimedia Commons."
    }
   ]
  },
@@ -1127,7 +1127,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Antoine Furetière/Restrato_ Antoine Furetière - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Antoine Furetière. Rijksmuseum. CC0, via Wikimedia Commons."
+    "legenda": "Antoine Furetière - Rijksmuseum. CC0, via Wikimedia Commons."
    }
   ]
  },
@@ -1138,7 +1138,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Pierre Bayle/Pierre Bayle_ Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam 1697. Frontispice. - Pierre Bayle, Public domain, via Wikimedia Commons.jpg",
-   "headerLegenda": "Pierre Bayle, Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam, 1697. Frontispice. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Pierre Bayle - Dictionaire historique et critique, Tome Premier A–G, frontispício. Reinier Leers, Rotterdam, 1697. Public domain, via Wikimedia Commons.",
    "titulo": "Dictionnaire historique et critique",
    "titulo_en": "Historical and Critical Dictionary",
    "autor": "Pierre Bayle",
@@ -1156,7 +1156,7 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Pierre Bayle/Pierre Bayle_ Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam 1697. Frontispice. - Pierre Bayle, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Pierre Bayle, Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam, 1697. Frontispice. Public domain, via Wikimedia Commons."
+    "legenda": "Pierre Bayle - Dictionaire historique et critique, Tome Premier A–G, frontispício. Reinier Leers, Rotterdam, 1697. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -1212,7 +1212,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Diderot - Louis-Michel van Loo, Public domain, via Wikimedia Commons.jpg",
-   "headerLegenda": "Retrato de Diderot — Louis-Michel van Loo. Public domain, via Wikimedia Commons.",
+   "headerLegenda": "Diderot - Louis-Michel van Loo. Public domain, via Wikimedia Commons.",
    "titulo": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers",
    "titulo_en": "Encyclopedia, or Reasoned Dictionary of the Sciences, Arts and Crafts",
    "autor": "Denis Diderot e Jean le Rond d'Alembert",
@@ -1230,11 +1230,11 @@ window.TIMELINE_OBRAS = [
   "galeria": [
    {
     "src": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Diderot - Louis-Michel van Loo, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Diderot — Louis-Michel van Loo. Public domain, via Wikimedia Commons."
+    "legenda": "Diderot - Louis-Michel van Loo. Public domain, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Jean Le Rond d_Alembert - Catherine Lusurier, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Jean Le Rond d'Alembert — Catherine Lusurier. Public domain, via Wikimedia Commons."
+    "legenda": "Jean Le Rond d'Alembert - Catherine Lusurier. Public domain, via Wikimedia Commons."
    }
   ]
  },
@@ -1279,15 +1279,15 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Brittanica/Retrato_ Andrew Bell - George Watson, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Andrew Bell — George Watson. Public domain, via Wikimedia Commons."
+    "legenda": "Andrew Bell - George Watson. Public domain, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Brittanica/Retrato_ Colin Macfarquhar - Jinilson castro, CC BY-SA 4.0 _SITE DAQUI ESTÁ NO EXCEL_, via Wikimedia Commons.jpg",
-    "legenda": "Retrato de Colin Macfarquhar — Jinilson castro. CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons."
+    "legenda": "Colin Macfarquhar - Jinilson castro. CC BY-SA 4.0, via Wikimedia Commons."
    },
    {
     "src": "assets/images/Percursos/Brittanica/Retrato_ William Smellie - William Smellie. Line engraving by W. H. Lizars after G. Watson. por William Home Lizars - Wellcome Collection, United Kingdom - CC BY..jpeg",
-    "legenda": "Retrato de William Smellie — William Smellie. Line engraving by W. H. Lizars after G. Watson, por William Home Lizars. Wellcome Collection, United Kingdom. CC BY."
+    "legenda": "William Smellie - W. H. Lizars (gravura) segundo G. Watson. Wellcome Collection, United Kingdom. CC BY."
    }
   ]
  },
@@ -1328,7 +1328,7 @@ window.TIMELINE_OBRAS = [
    },
    {
     "src": "assets/images/Percursos/Brockhaus/Retrato do fundador_ Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein, Public domain, via Wikimedia Commons.jpg",
-    "legenda": "Retrato do fundador Friedrich Arnold Brockhaus — Carl Christian Vogel von Vogelstein. Public domain, via Wikimedia Commons."
+    "legenda": "Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein. Public domain, via Wikimedia Commons."
    }
   ]
  }

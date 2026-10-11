@@ -329,4 +329,15 @@
     if (e.key === 'ArrowLeft') navegar(-1);
     if (e.key === 'ArrowRight') navegar(1);
   });
+
+  // Botão voltar ao topo
+  var btnTopo = document.getElementById('btn-topo');
+  if (btnTopo) {
+    window.addEventListener('scroll', function () {
+      btnTopo.classList.toggle('visible', window.scrollY > 400);
+    });
+    btnTopo.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 })();
