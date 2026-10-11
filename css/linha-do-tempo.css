@@ -7,6 +7,30 @@
   padding-top: 5rem;
 }
 
+.timeline-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.timeline-header .voltar a {
+  color: var(--accent, #d4af37);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.timeline-titulo {
+  color: #fff;
+  font-size: 2.2rem;
+  margin: 0.5rem 0 0.3rem;
+}
+
+.timeline-subtitulo {
+  color: #aaa;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;

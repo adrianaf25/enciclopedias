@@ -262,12 +262,19 @@ a {
 }
 
 .gallery-caption h3 {
-  font-size: 1.1rem;
+  font-size: 1.8rem;
+  transition: color 0.2s;
 }
 
 .gallery-caption p {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.gallery-item:hover .gallery-caption h3,
+.gallery-item:hover .gallery-caption p {
+  color: var(--accent, #d4af37);
 }
 
 .gallery-text {

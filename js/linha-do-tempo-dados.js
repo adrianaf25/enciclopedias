@@ -814,6 +814,22 @@ window.TIMELINE_OBRAS = [
    {
     "src": "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg",
     "legenda": "Bartolomeu Inglês - 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Bartholomeus Anglicus/Fragmento de _De Proprietatibus Rerum_, séc. XIV - F.m.V.VAR.5 (De proprietatibus rerum) por Bartholomaeus Anglicus - National Library of Finland, Finland - Public Domain.-1.jpg",
+    "legenda": "Fragmento de De Proprietatibus Rerum, séc. XIV (pág. 1) — Bartholomaeus Anglicus — National Library of Finland, Finland — Public Domain"
+   },
+   {
+    "src": "assets/images/Percursos/Bartholomeus Anglicus/Fragmento de _De Proprietatibus Rerum_, séc. XIV - F.m.V.VAR.5 (De proprietatibus rerum) por Bartholomaeus Anglicus - National Library of Finland, Finland - Public Domain.-2.jpg",
+    "legenda": "Fragmento de De Proprietatibus Rerum, séc. XIV (pág. 2) — Bartholomaeus Anglicus — National Library of Finland, Finland — Public Domain"
+   },
+   {
+    "src": "assets/images/Percursos/Bartholomeus Anglicus/Fragmento de _De Proprietatibus Rerum_, séc. XIV - F.m.V.VAR.5 (De proprietatibus rerum) por Bartholomaeus Anglicus - National Library of Finland, Finland - Public Domain.-3.jpg",
+    "legenda": "Fragmento de De Proprietatibus Rerum, séc. XIV (pág. 3) — Bartholomaeus Anglicus — National Library of Finland, Finland — Public Domain"
+   },
+   {
+    "src": "assets/images/Percursos/Bartholomeus Anglicus/Fragmento de _De Proprietatibus Rerum_, séc. XIV - F.m.V.VAR.5 (De proprietatibus rerum) por Bartholomaeus Anglicus - National Library of Finland, Finland - Public Domain.-4.jpg",
+    "legenda": "Fragmento de De Proprietatibus Rerum, séc. XIV (pág. 4) — Bartholomaeus Anglicus — National Library of Finland, Finland — Public Domain"
    }
   ]
  },
@@ -1235,6 +1251,30 @@ window.TIMELINE_OBRAS = [
    {
     "src": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Jean Le Rond d_Alembert - Catherine Lusurier, Public domain, via Wikimedia Commons.jpg",
     "legenda": "Jean Le Rond d'Alembert - Catherine Lusurier. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 17-1.jpg",
+    "legenda": "Pág. 17 — Encyclopédie, Vol. 1"
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 18 - Discurso Preliminar-1.jpg",
+    "legenda": "Pág. 18 — Discurso Preliminar — Encyclopédie, Vol. 1"
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 67 - Advertência sobre restantes colaboradores-1.jpg",
+    "legenda": "Pág. 67 — Advertência sobre restantes colaboradores — Encyclopédie, Vol. 1"
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 73 - Observações - referência ao Bacon-1.jpg",
+    "legenda": "Pág. 73 — Observações, referência a Bacon — Encyclopédie, Vol. 1"
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 76 -1ª Pág. do A-1.jpg",
+    "legenda": "Pág. 76 — 1ª Página do A — Encyclopédie, Vol. 1"
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/retirado da Eniclopédia em PDF nesta pasta - Pág. 856 - Última Pág. do A e 1º Volume-1.jpg",
+    "legenda": "Pág. 856 — Última Página do A e 1º Volume — Encyclopédie, Vol. 1"
    }
   ]
  },
@@ -1329,6 +1369,14 @@ window.TIMELINE_OBRAS = [
    {
     "src": "assets/images/Percursos/Brockhaus/Retrato do fundador_ Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein, Public domain, via Wikimedia Commons.jpg",
     "legenda": "Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Brockhaus/Allgemeine deutsche Real-Encyklopädie für die gebildeten Stände _ (Conversations-Lexikon) por Brockhaus, Friedrich Arnold - 1836 - University of Miskolc, Hungary - Public Domain.-1.jpg",
+    "legenda": "Allgemeine deutsche Real-Encyklopädie für die gebildeten Stände (Conversations-Lexikon) — Brockhaus, Friedrich Arnold — 1836 — University of Miskolc, Hungary — Public Domain"
+   },
+   {
+    "src": "assets/images/Percursos/Brockhaus/Relógio - Turkestan - Zz. (1903). Brockhaus.-1.jpg",
+    "legenda": "Relógio — Turkestan — Brockhaus, 1903"
    }
   ]
  }
