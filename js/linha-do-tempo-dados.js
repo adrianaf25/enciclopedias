@@ -1,12 +1,50 @@
 // Gerado automaticamente — dados das fichas para a Linha do Tempo.
 window.TIMELINE_OBRAS = [
  {
+  "id": "linha2",
+  "nome": "Espeusipo",
+  "epoca": "Antiguidade",
+  "fichaHTML": true,
+  "fichaData": {
+   "headerImg": "assets/images/Percursos/Speusippus/Speusippos - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+   "headerLegenda": "Speusippos, 1493. Rijksmuseum, Netherlands. Public Domain.",
+   "titulo": "Obra enciclopédica (fragmentos)",
+   "titulo_en": "Encyclopaedic work (fragments)",
+   "autor": "Espeusipo",
+   "autor_en": "Speusippus",
+   "ano": "c. 370 a.C.",
+   "ano_en": "c. 370 BC",
+   "local": "Grécia (Atenas)",
+   "local_en": "Greece (Athens)",
+   "historia": "Espeusipo foi sobrinho de Platão, filho da sua irmã Potone e de Eurimedon. Nasceu em Atenas depois de 408 a.C. e foi discípulo de Platão, tornando-se seu sucessor imediato na Academia como Escolarca. Para auxiliar o ensino, compilou uma obra enciclopédica da qual apenas chegaram até nós alguns fragmentos sobre história natural, matemática e filosofia.\nSe houvesse um «pai das enciclopédias», seria quase certamente Platão, que procurou oferecer na sua Academia uma educação completa; mas não escreveu enciclopédias — os primeiros fragmentos enciclopédicos são obra do seu sobrinho Espeusipo, embora as palavras sejam de Platão. Os fragmentos sobreviventes foram publicados na dissertação de Paul Lang, De Speusippi academici scriptis (1911). Espeusipo morreu por volta de 338 a.C.",
+   "historia_en": "Speusippus was Plato's nephew, son of his sister Potone and Eurymedon. He was born in Athens after 408 BC and was a disciple of Plato, becoming his immediate successor at the Academy as Scholarch. To help with his teaching, he compiled an encyclopaedic work of which only a few fragments on natural history, mathematics and philosophy have survived.\nIf there were a 'father of encyclopaedias,' it would almost certainly be Plato, who set out to provide a complete education through his Academy; but he wrote no encyclopaedias himself — the first encyclopaedic fragments are the work of his nephew Speusippus, though the words are Plato's. The surviving fragments were published in Paul Lang's dissertation De Speusippi academici scriptis (1911). Speusippus died about 338 BC.",
+   "edicoes": "Paul Ludwig Friedrich Lang, De Speusippi academici scriptis; accedunt fragmenta (Bona, C. Georg, 1911)",
+   "edicoes_en": "Paul Ludwig Friedrich Lang, De Speusippi academici scriptis; accedunt fragmenta (Bonn, C. Georg, 1911)"
+  },
+  "thumb": "assets/images/Percursos/Speusippus/Speusippos - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+  "galeria": [
+   {
+    "src": "assets/images/Percursos/Speusippus/Speusippos - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+    "legenda": "Speusippos, 1493. Rijksmuseum, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Speusippus/Thomas Stanley, 1655, The history of philosophy, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Thomas Stanley, 1655, The history of philosophy. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Speusippus/De Speusippi academici scriptis (em Internet Archive) - CITAÇÃO MEMSO DE SPEUSIPPUS SUBLINHADA.png",
+    "legenda": "De Speusippi academici scriptis — Paul Ludwig Friedrich Lang, 1911. Internet Archive."
+   }
+  ]
+ },
+ {
   "id": "linha3",
   "nome": "Aristóteles",
   "epoca": "Antiguidade",
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Aristóteles/Aristotle - Publication date c. 1500 (Internet Archive).jpg",
+   "headerLegenda": "Aristotle — Publication date c. 1500. Internet Archive.",
    "titulo": "Escritos didáticos do Liceu",
    "titulo_en": "Teaching writings of the Lyceum",
    "autor": "Aristóteles",
@@ -22,7 +60,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha3_Aristoteles_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Aristóteles/Aristotle - Publication date c. 1500 (Internet Archive).jpg"
+   {
+    "src": "assets/images/Percursos/Aristóteles/Aristotle - Publication date c. 1500 (Internet Archive).jpg",
+    "legenda": "Aristotle — Publication date c. 1500. Internet Archive."
+   }
   ]
  },
  {
@@ -32,6 +73,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Catão/Marcus Porcius Cato - The original uploader was Dr. Manuel at German Wikipedia., Public domain, via Wikimedia Commons.jpeg",
+   "headerLegenda": "Marcus Porcius Cato — The original uploader was Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons.",
    "titulo": "Praecepta ad Filium",
    "titulo_en": "Precepts to His Son",
    "autor": "Catão, o Censor",
@@ -47,7 +89,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha4_Catao_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Catão/Marcus Porcius Cato - The original uploader was Dr. Manuel at German Wikipedia., Public domain, via Wikimedia Commons.jpeg"
+   {
+    "src": "assets/images/Percursos/Catão/Marcus Porcius Cato - The original uploader was Dr. Manuel at German Wikipedia., Public domain, via Wikimedia Commons.jpeg",
+    "legenda": "Marcus Porcius Cato — The original uploader was Dr. Manuel at German Wikipedia. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -57,6 +102,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Varrão/Marco Terenzio Varrone - Andre Thevet, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Marco Terenzio Varrone — Andre Thevet. Public domain, via Wikimedia Commons.",
    "titulo": "Disciplinarum libri IX; Rerum divinarum et humanarum antiquitates; Imagines",
    "titulo_en": "Nine Books of Disciplines; Antiquities of Human and Divine Things; Portraits",
    "autor": "Marco Terêncio Varrão",
@@ -72,7 +118,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha5_Varrao_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Varrão/Marco Terenzio Varrone - Andre Thevet, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Varrão/Marco Terenzio Varrone - Andre Thevet, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Marco Terenzio Varrone — Andre Thevet. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -82,6 +131,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Plínio/Plíno, o Velho - 1850 - Geoffrey, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Plíno, o Velho — 1850. Geoffrey. Public domain, via Wikimedia Commons.",
    "titulo": "Historia Naturalis",
    "titulo_en": "Natural History",
    "autor": "Plínio, o Velho",
@@ -97,8 +147,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha7_Plinio_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Plínio/13 - Biblioteca Portuguesa - TEM LÁ O LIVRO TODO.jpeg",
-   "assets/images/Percursos/Plínio/Plíno, o Velho - 1850 - Geoffrey, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Plínio/13 - Biblioteca Portuguesa - TEM LÁ O LIVRO TODO.jpeg",
+    "legenda": "C. Plinii Secundi Novocomensis Epistolarum libri X. Panegyricus Traiano principi dictus. De viris illustribus in re militari ... — Plinio Cecilio Segundo, Cayo, ca. 61-ca. 114, 1529. Virtual Library of Bibliographical Heritage, Spain. CC BY."
+   },
+   {
+    "src": "assets/images/Percursos/Plínio/Plíno, o Velho - 1850 - Geoffrey, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Plíno, o Velho — 1850. Geoffrey. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -108,6 +164,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Solinus/Collectanea rerum memorabilium - Collectanea rerum memorabilium - Solinus por Solinus - Leiden University Libraries, Netherlands - Public Domain..jpeg",
+   "headerLegenda": "Collectanea rerum memorabilium — Solinus. Leiden University Libraries, Netherlands. Public Domain.",
    "titulo": "Collectanea rerum memorabilium (Polyhistor)",
    "titulo_en": "Collection of Memorable Things",
    "autor": "Caio Júlio Solino",
@@ -123,8 +180,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha8_Solino_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Solinus/Collectanea rerum memorabilium - Collectanea rerum memorabilium - Solinus por Solinus - Leiden University Libraries, Netherlands - Public Domain..jpeg",
-   "assets/images/Percursos/Solinus/Solinus - Gaius Julius Solinus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg"
+   {
+    "src": "assets/images/Percursos/Solinus/Collectanea rerum memorabilium - Collectanea rerum memorabilium - Solinus por Solinus - Leiden University Libraries, Netherlands - Public Domain..jpeg",
+    "legenda": "Collectanea rerum memorabilium — Solinus. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Solinus/Solinus - Gaius Julius Solinus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+    "legenda": "Solinus — Gaius Julius Solinus, 1493. Rijksmuseum, Netherlands. Public Domain."
+   }
   ]
  },
  {
@@ -134,6 +197,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Martianus M. Feliz Capella/Capa de uma reedição da obra de Capella - ATRIBUIÇÃO_ De nuptiis Philologiae et Mercurio - Martianus Capella, and other text(s) por Cyprian, of Carthage, Pseudo- - Leiden University Libraries, Netherlands - Public Domain..jpg",
+   "headerLegenda": "Capa de uma reedição de De nuptiis Philologiae et Mercurio — Martianus Capella, and other text(s), por Cyprian, of Carthage, Pseudo-. Leiden University Libraries, Netherlands. Public Domain.",
    "titulo": "De nuptiis Mercurii et Philologiae",
    "titulo_en": "On the Marriage of Mercury and Philology",
    "autor": "Marciano Capela",
@@ -149,14 +213,38 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha9_Marciano_Capela_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Martianus M. Feliz Capella/Capa de uma reedição da obra de Capella - ATRIBUIÇÃO_ De nuptiis Philologiae et Mercurio - Martianus Capella, and other text(s) por Cyprian, of Carthage, Pseudo- - Leiden University Libraries, Netherlands - Public Domain..jpg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/De Nuptiis Philologiae et Mercurii - Cod. Aug. perg. 73 por Martianus, Capella - 901 - Baden State Library, Germany - CC BY..jpeg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/De nuptiis Philologiae et Mercurii - Cod. Ettenheim-Münster 7 _ VIII. de astrologica por Martianus, Capella - 1301 - Baden State Library, Germany - CC BY-SA..jpeg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain..jpg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR 2 - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR 3 - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
-   "assets/images/Percursos/Martianus M. Feliz Capella/INTERNET ARCHIVE - 1532 - Martiani Minei Capellae De nuptiis philologiae et Mercurii, libri 2. Ad haec de septem artibus liberalibus libri eiusdem singuli, ... Accurate ad ueterum exemplariorum fidem à mendis, quibus scatebant, uindicati, ...jpg"
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/Capa de uma reedição da obra de Capella - ATRIBUIÇÃO_ De nuptiis Philologiae et Mercurio - Martianus Capella, and other text(s) por Cyprian, of Carthage, Pseudo- - Leiden University Libraries, Netherlands - Public Domain..jpg",
+    "legenda": "Capa de uma reedição de De nuptiis Philologiae et Mercurio — Martianus Capella, and other text(s), por Cyprian, of Carthage, Pseudo-. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/De Nuptiis Philologiae et Mercurii - Cod. Aug. perg. 73 por Martianus, Capella - 901 - Baden State Library, Germany - CC BY..jpeg",
+    "legenda": "De nuptiis Philologiae et Mercurii (Cod. Aug. perg. 73) — Martianus Capella, 901. Baden State Library, Germany. CC BY."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/De nuptiis Philologiae et Mercurii - Cod. Ettenheim-Münster 7 _ VIII. de astrologica por Martianus, Capella - 1301 - Baden State Library, Germany - CC BY-SA..jpeg",
+    "legenda": "De nuptiis Philologiae et Mercurii (Cod. Ettenheim-Münster 7, VIII. de astrologica) — Martianus Capella, 1301. Baden State Library, Germany. CC BY-SA."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain..jpg",
+    "legenda": "De nuptiis Philologiae et Mercurii — Martianus Capella, por Marciano Capella. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
+    "legenda": "De nuptiis Philologiae et Mercurii — Martianus Capella, por Marciano Capella. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR 2 - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
+    "legenda": "De nuptiis Philologiae et Mercurii — Martianus Capella, por Marciano Capella. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/INTERIOR 3 - De nuptiis Philologiae et Mercurii - Martianus Capella por Marciano Capella - Leiden University Libraries, Netherlands - Public Domain.default.jpg",
+    "legenda": "De nuptiis Philologiae et Mercurii — Martianus Capella, por Marciano Capella. Leiden University Libraries, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Martianus M. Feliz Capella/INTERNET ARCHIVE - 1532 - Martiani Minei Capellae De nuptiis philologiae et Mercurii, libri 2. Ad haec de septem artibus liberalibus libri eiusdem singuli, ... Accurate ad ueterum exemplariorum fidem à mendis, quibus scatebant, uindicati, ...jpg",
+    "legenda": "Martiani Minei Capellae De nuptiis philologiae et Mercurii, libri 2. Ad haec de septem artibus liberalibus libri eiusdem singuli ... — 1532. Internet Archive."
+   }
   ]
  },
  {
@@ -166,6 +254,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Cassiodoro/Cassiodorus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+   "headerLegenda": "Cassiodorus — 1493. Rijksmuseum, Netherlands. Public Domain.",
    "titulo": "Institutiones divinarum et humanarum lectionum",
    "titulo_en": "Institutions of Divine and Human Readings",
    "autor": "Cassiodoro",
@@ -181,9 +270,18 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha10_Cassiodoro_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Cassiodoro/Cassiodorus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
-   "assets/images/Percursos/Cassiodoro/parte 1 (826 d.C.) EUROPEANA - Cassiodorus, F. M. A. Cassiodorus. Fragment..jpg",
-   "assets/images/Percursos/Cassiodoro/parte 2 (826 d.C.) EUROPEANA - Cassiodorus, F. M. A. Cassiodorus. Fragment..jpg"
+   {
+    "src": "assets/images/Percursos/Cassiodoro/Cassiodorus - 1493 - Rijksmuseum, Netherlands - Public Domain..jpeg",
+    "legenda": "Cassiodorus — 1493. Rijksmuseum, Netherlands. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Cassiodoro/parte 1 (826 d.C.) EUROPEANA - Cassiodorus, F. M. A. Cassiodorus. Fragment..jpg",
+    "legenda": "Cassiodorus, F. M. A. Cassiodorus. Fragment (parte 1), 826. Europeana."
+   },
+   {
+    "src": "assets/images/Percursos/Cassiodoro/parte 2 (826 d.C.) EUROPEANA - Cassiodorus, F. M. A. Cassiodorus. Fragment..jpg",
+    "legenda": "Cassiodorus, F. M. A. Cassiodorus. Fragment (parte 2), 826. Europeana."
+   }
   ]
  },
  {
@@ -193,6 +291,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Santo Isidoro de Sevilha/1- Edição 1577_ - ATRIBUIÇÃO_ Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+   "headerLegenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.",
    "titulo": "Originum sive Etymologiarum libri XX (Etimologias)",
    "titulo_en": "Twenty Books of Origins or Etymologies",
    "autor": "Santo Isidoro de Sevilha",
@@ -208,11 +307,26 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha11_Isidoro_de_Sevilha_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Santo Isidoro de Sevilha/1- Edição 1577_ - ATRIBUIÇÃO_ Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
-   "assets/images/Percursos/Santo Isidoro de Sevilha/1775 - [Retrato de San Isidoro] - Mariano Salvator Maella invenit. _ Emmanuel Salvator Carmona incidit. - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
-   "assets/images/Percursos/Santo Isidoro de Sevilha/2 - Edição 1577_ - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
-   "assets/images/Percursos/Santo Isidoro de Sevilha/3 - Edição 1577_  - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
-   "assets/images/Percursos/Santo Isidoro de Sevilha/4 - Edição 1577_  -  ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg"
+   {
+    "src": "assets/images/Percursos/Santo Isidoro de Sevilha/1- Edição 1577_ - ATRIBUIÇÃO_ Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+    "legenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+   },
+   {
+    "src": "assets/images/Percursos/Santo Isidoro de Sevilha/1775 - [Retrato de San Isidoro] - Mariano Salvator Maella invenit. _ Emmanuel Salvator Carmona incidit. - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+    "legenda": "[Retrato de San Isidoro] — Mariano Salvator Maella invenit; Emmanuel Salvator Carmona incidit, 1775. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+   },
+   {
+    "src": "assets/images/Percursos/Santo Isidoro de Sevilha/2 - Edição 1577_ - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+    "legenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+   },
+   {
+    "src": "assets/images/Percursos/Santo Isidoro de Sevilha/3 - Edição 1577_  - ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+    "legenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+   },
+   {
+    "src": "assets/images/Percursos/Santo Isidoro de Sevilha/4 - Edição 1577_  -  ATRIBUIÇÃO_  Imagem proveniente dos acervos da Biblioteca Nacional de Espanha.jpg",
+    "legenda": "Isidoro de Sevilha, edição de 1577. Imagem proveniente dos acervos da Biblioteca Nacional de Espanha."
+   }
   ]
  },
  {
@@ -238,6 +352,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Hrabanus Maurus/(2)Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpg",
+   "headerLegenda": "Hrabanus Maurus, De rerum natura — Raban Maur (0780-0856), auteur du texte. National Library of France, France. No Copyright - Other Known Legal Restrictions.",
    "titulo": "De universo",
    "titulo_en": "On the Universe",
    "autor": "Hrabano Mauro",
@@ -253,10 +368,22 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha12_Hrabano_Mauro_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Hrabanus Maurus/(2)Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpg",
-   "assets/images/Percursos/Hrabanus Maurus/Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpeg",
-   "assets/images/Percursos/Hrabanus Maurus/Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpg",
-   "assets/images/Percursos/Hrabanus Maurus/Hrabanus, Maurus, 780-856 [Abgebildet] -- (GND_ 118553909) .jpg"
+   {
+    "src": "assets/images/Percursos/Hrabanus Maurus/(2)Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpg",
+    "legenda": "Hrabanus Maurus, De rerum natura — Raban Maur (0780-0856), auteur du texte. National Library of France, France. No Copyright - Other Known Legal Restrictions."
+   },
+   {
+    "src": "assets/images/Percursos/Hrabanus Maurus/Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpeg",
+    "legenda": "Hrabanus Maurus, De rerum natura — Raban Maur (0780-0856), auteur du texte. National Library of France, France. No Copyright - Other Known Legal Restrictions."
+   },
+   {
+    "src": "assets/images/Percursos/Hrabanus Maurus/Hrabanus Maurus, De rerum natura por Raban Maur (0780-0856_). Auteur du texte - National Library of France, France - No Copyright - Other Known Legal Restrictions..jpg",
+    "legenda": "Hrabanus Maurus, De rerum natura — Raban Maur (0780-0856), auteur du texte. National Library of France, France. No Copyright - Other Known Legal Restrictions."
+   },
+   {
+    "src": "assets/images/Percursos/Hrabanus Maurus/Hrabanus, Maurus, 780-856 [Abgebildet] -- (GND_ 118553909) .jpg",
+    "legenda": "Hrabanus Maurus, 780-856 [Abgebildet] (GND: 118553909). Source: http://data.onb.ac.at/rec/baa7529338/ ÖNB Viewer / Österreichische Nationalbibliothek (Austrian National Library)."
+   }
   ]
  },
  {
@@ -290,6 +417,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/SUIDAS/(2) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
+   "headerLegenda": "Suidas, 1. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only.",
    "titulo": "Léxico Suidas",
    "titulo_en": "Suidas Lexicon",
    "autor": "Desconhecido",
@@ -305,11 +433,26 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha13_Suidas_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/SUIDAS/(2) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/SUIDAS/(3) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/SUIDAS/(4) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/SUIDAS/Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/SUIDAS/Suidas, 2. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg"
+   {
+    "src": "assets/images/Percursos/SUIDAS/(2) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Suidas, 1. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/SUIDAS/(3) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Suidas, 1. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/SUIDAS/(4) Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Suidas, 1. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/SUIDAS/Suidas, 1. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Suidas, 1. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/SUIDAS/Suidas, 2. (1619) por Suidas, Thessalius - 1619 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
+    "legenda": "Suidas, 2. (1619) — Suidas, Thessalius, 1619. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   }
   ]
  },
  {
@@ -319,6 +462,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Michael Psellos/(1) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+   "headerLegenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only.",
    "titulo": "De omnifaria doctrina",
    "titulo_en": "On Omnifarious Doctrine",
    "autor": "Miguel Pselo",
@@ -334,14 +478,38 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha14_Miguel_Pselo_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Michael Psellos/(1) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/(2) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/(3) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/(4) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/(5) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/(6) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
-   "assets/images/Percursos/Michael Psellos/Michael Psellos (left) with his student, Byzantine Emperor Michael VII Doukas - 12th-13th century - Source_Codex 234, f. 245a, Mount Athos, Pantokrator Monastery.jpg",
-   "assets/images/Percursos/Michael Psellos/Michael Psellos, De omnifaria doctrina, in ms. Florence, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r - Date _ 1347 - Source_ 2d copy.jpg"
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(1) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(2) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(3) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(4) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(5) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/(6) Michael Psellus-De omnifaria doctrina-EDição de Johann Albert Fabricius, biblitheca graeca, 1712 - ATRIBUIÇÃO_ VER EXCEL.jpg",
+    "legenda": "Michael Psellus, De omnifaria doctrina, edição de Johann Albert Fabricius, Bibliotheca Graeca, 1712. Bibliotheca Graeca, sive Notitia scriptorum veterum Graecorum ... Editio tertia, ab auctore recognita et plurimis locis aucta. 5. De scriptoribus Graecis Christianis ... — Allacci, Leo, 1723. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/Michael Psellos (left) with his student, Byzantine Emperor Michael VII Doukas - 12th-13th century - Source_Codex 234, f. 245a, Mount Athos, Pantokrator Monastery.jpg",
+    "legenda": "Michael Psellos (left) with his student, Byzantine Emperor Michael VII Doukas, 12th-13th century. Source: Codex 234, f. 245a, Mount Athos, Pantokrator Monastery."
+   },
+   {
+    "src": "assets/images/Percursos/Michael Psellos/Michael Psellos, De omnifaria doctrina, in ms. Florence, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r - Date _ 1347 - Source_ 2d copy.jpg",
+    "legenda": "Michael Psellos, De omnifaria doctrina, in ms. Florence, Biblioteca Medicea Laurenziana, Plut. 86,15, fol. 162r, 1347."
+   }
   ]
  },
  {
@@ -351,6 +519,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0082.jpg",
+   "headerLegenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France",
    "titulo": "De diversis artibus (Schedula diversarum artium)",
    "titulo_en": "On Diverse Arts",
    "autor": "Theophilus Presbyter (pseudónimo)",
@@ -366,18 +535,54 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha17_Theophilus_Presbyter_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0082.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0083.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0093.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0161.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0207.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0341.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0342.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0343.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0345.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0346.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0347.jpg",
-   "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0348.jpg"
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0082.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0083.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0093.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0161.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0207.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0341.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0342.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0343.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0345.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0346.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0347.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   },
+   {
+    "src": "assets/images/Percursos/Theophilus, Presbyter/theophilipresbyt00theo_0348.jpg",
+    "legenda": "Théophile, Libri III seu Diversarum artium schedula, éd. Ch. de L'Escalopier, Paris, 1843. Source gallica.bnf.fr / Bibliothèque nationale de France"
+   }
   ]
  },
  {
@@ -387,6 +592,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Lambert of Saint-Omer/1) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg",
+   "headerLegenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain.",
    "titulo": "Liber floridus",
    "titulo_en": "The Book of Flowers",
    "autor": "Lambert de St. Omer",
@@ -402,19 +608,58 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha16_Lambert_de_St_Omer_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Lambert of Saint-Omer/1) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/10) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/11) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/12) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/2) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/3) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/4) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/5) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/6) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/7) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/8) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/9) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
-   "assets/images/Percursos/Lambert of Saint-Omer/Lambert of Saint-Omer writing the Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg"
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/1) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/10) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/11) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/12) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/2) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/3) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/4) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/5) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/6) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/7) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/8) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/9) Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Lambert of Saint-Omer/Lambert of Saint-Omer writing the Liber Floridus - Manuscript_Universiteitsbibliotheek Ghent, MS 92 [Liber Floridus], folio 13r._ LINK + ATRIBUIÇÃO NO EXCEL.jpg",
+    "legenda": "Liber Floridus, Manuscript, Universiteitsbibliotheek Ghent, MS 92. Ghent University Library. Public Domain."
+   }
   ]
  },
  {
@@ -424,6 +669,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Honorius Augustodunensis/Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282) (source - PÔR LINK DO EXCEL).jpg",
+   "headerLegenda": "Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282). Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Portrait_of_Honorius_Augustodunensis._St._Gallen,_Stiftsbibliothek,_Cod._Sang._1075,_p._282.jpg",
    "titulo": "Imago mundi",
    "titulo_en": "Image of the World",
    "autor": "Honório Augustodunense",
@@ -439,7 +685,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha18_Honorio_Augustodunense_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Honorius Augustodunensis/Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282) (source - PÔR LINK DO EXCEL).jpg"
+   {
+    "src": "assets/images/Percursos/Honorius Augustodunensis/Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282) (source - PÔR LINK DO EXCEL).jpg",
+    "legenda": "Portrait of Honorius Augustodunensis (St. Gallen, Stiftsbibliothek, Cod. Sang. 1075, p. 282). Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Portrait_of_Honorius_Augustodunensis._St._Gallen,_Stiftsbibliothek,_Cod._Sang._1075,_p._282.jpg"
+   }
   ]
  },
  {
@@ -449,6 +698,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_(mignature_anglaise_anonyme,_XIIIe_siècle).png",
+   "headerLegenda": "Hugues de Saint-Victor (miniature anglaise anonyme, XIIIe siècle).",
    "titulo": "Didascalicon: de studio legendi",
    "titulo_en": "Didascalicon: On the Study of Reading",
    "autor": "Hugo de São Vítor",
@@ -464,8 +714,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha15_Hugo_de_Sao_Vitor_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_(mignature_anglaise_anonyme,_XIIIe_siècle).png",
-   "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_rédige_le_Didascalicon_-_Parchemin._Vucanius_45,_f°_130_(Leyde,_Bibliothek_der_Rijkuniversiteit).png"
+   {
+    "src": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_(mignature_anglaise_anonyme,_XIIIe_siècle).png",
+    "legenda": "Hugues de Saint-Victor (miniature anglaise anonyme, XIIIe siècle)."
+   },
+   {
+    "src": "assets/images/Percursos/Hugues de Saint-Victor /Hugues_de_Saint-Victor_rédige_le_Didascalicon_-_Parchemin._Vucanius_45,_f°_130_(Leyde,_Bibliothek_der_Rijkuniversiteit).png",
+    "legenda": "Hugues de Saint-Victor (✝ 1141) rédige le Didascalicon, miniature extraite d'un parchemin: Vucanius 45, f° 130, conservé à Leyde (Bibliotheek der Rijksuniversiteit), 13th century."
+   }
   ]
  },
  {
@@ -475,6 +731,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Abadessa Herrad/Abadessa de Herrad - A table from Hortus Deliciarum (facsimile - 1818) - ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Abadessa de Herrad — A table from Hortus Deliciarum (facsimile, 1818). After Herrad of Landsberg. Public domain, via Wikimedia Commons.",
    "titulo": "Hortus deliciarum",
    "titulo_en": "Garden of Delights",
    "autor": "Herrad de Landsberg",
@@ -490,10 +747,22 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha19_Herrad_de_Landsberg_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Abadessa Herrad/Abadessa de Herrad - A table from Hortus Deliciarum (facsimile - 1818) - ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Abadessa Herrad/Hortus_Deliciarum_facsimile_Tab.08_cropped- ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Abadessa Herrad/Hortus_Deliciarum_facsimile_Tab.10_cropped - ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Abadessa Herrad/Medieval_knight_puppets_from_Hortus_Deliciarum - ATRIBUIÇÃO_ Herrad of Landsberg, CC0, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Abadessa Herrad/Abadessa de Herrad - A table from Hortus Deliciarum (facsimile - 1818) - ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Abadessa de Herrad — A table from Hortus Deliciarum (facsimile, 1818). After Herrad of Landsberg. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Abadessa Herrad/Hortus_Deliciarum_facsimile_Tab.08_cropped- ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Hortus Deliciarum, facsimile Tab. 08 (cropped) — After Herrad of Landsberg. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Abadessa Herrad/Hortus_Deliciarum_facsimile_Tab.10_cropped - ATRIBUIÇÃO_ After Herrad of Landsberg, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Hortus Deliciarum, facsimile Tab. 10 (cropped) — After Herrad of Landsberg. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Abadessa Herrad/Medieval_knight_puppets_from_Hortus_Deliciarum - ATRIBUIÇÃO_ Herrad of Landsberg, CC0, via Wikimedia Commons.jpg",
+    "legenda": "Medieval knight puppets from Hortus Deliciarum — Herrad of Landsberg. CC0, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -526,6 +795,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Retrato de Bartholomeus Anglicus, 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons.",
    "titulo": "De proprietatibus rerum",
    "titulo_en": "On the Properties of Things",
    "autor": "Bartolomeu Inglês",
@@ -541,7 +811,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha21_Bartolomeu_Ingles_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Bartholomeus Anglicus/Retrato de Bartholomeus Anglicus, 1711- Bibliothèque nationale de France, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Bartholomeus Anglicus, 1711. Bibliothèque nationale de France. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -551,6 +824,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Vicente de Beauvais/Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 - Medieval scribe and illuminator, Public domain, via Wikimedia Commons - .jpg",
+   "headerLegenda": "Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 — Medieval scribe and illuminator. Public domain, via Wikimedia Commons.",
    "titulo": "Speculum maius",
    "titulo_en": "The Great Mirror",
    "autor": "Vicente de Beauvais",
@@ -566,11 +840,26 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha22_Vicente_de_Beauvais_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Vicente de Beauvais/Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 - Medieval scribe and illuminator, Public domain, via Wikimedia Commons - .jpg",
-   "assets/images/Percursos/Vicente de Beauvais/Manuscript of Vincent of Beauvais_s Speculum Doctrinale (manuscript copy from 1301-1400) - Vincent of Beauvais, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Vicente de Beauvais/Speculum historiale.jpeg",
-   "assets/images/Percursos/Vicente de Beauvais/Speculum morale.jpeg",
-   "assets/images/Percursos/Vicente de Beauvais/Speculum naturale.jpeg"
+   {
+    "src": "assets/images/Percursos/Vicente de Beauvais/Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 - Medieval scribe and illuminator, Public domain, via Wikimedia Commons - .jpg",
+    "legenda": "Author portrait of Vincent of Beauvais in a manuscript of his Speculum Historiale, 1478 — Medieval scribe and illuminator. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Vicente de Beauvais/Manuscript of Vincent of Beauvais_s Speculum Doctrinale (manuscript copy from 1301-1400) - Vincent of Beauvais, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Manuscript of Vincent of Beauvais's Speculum Doctrinale (manuscript copy, 1301-1400) — Vincent of Beauvais. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Vicente de Beauvais/Speculum historiale.jpeg",
+    "legenda": "Speculum historiale — Vincentius Bellovacensis, 1483, p. 9. Copy: Bayerische Staatsbibliothek, Munich, bsb00044464. Source Library."
+   },
+   {
+    "src": "assets/images/Percursos/Vicente de Beauvais/Speculum morale.jpeg",
+    "legenda": "Speculum morale — Vincentius Bellovacensis, 1476. USTC 749716. Copy: Bayerische Staatsbibliothek, Munich, bsb00072906. Source Library."
+   },
+   {
+    "src": "assets/images/Percursos/Vicente de Beauvais/Speculum naturale.jpeg",
+    "legenda": "Speculum naturale — Vincentius Bellovacensis, 1481. Copy: Bayerische Staatsbibliothek, Munich, bsb00072896. Source Library."
+   }
   ]
  },
  {
@@ -580,6 +869,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Gautier de Metz/Gautier de Metz, Image du monde, en vers (1275-1300) - Bibliothèque nationale de France, Public domain, via Wikimedia Commons .jpg",
+   "headerLegenda": "Gautier de Metz, Image du monde, en vers, 1275-1300. Bibliothèque nationale de France. Public domain, via Wikimedia Commons.",
    "titulo": "Mappe monde / L'Image du monde",
    "titulo_en": "Map of the World / The Image of the World",
    "autor": "Gautier de Metz",
@@ -595,8 +885,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha23_Gautier_de_Metz_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Gautier de Metz/Gautier de Metz, Image du monde, en vers (1275-1300) - Bibliothèque nationale de France, Public domain, via Wikimedia Commons .jpg",
-   "assets/images/Percursos/Gautier de Metz/Gautier de Metz, Image du monde. Séc. XIV - Gossuin de Metz, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Gautier de Metz/Gautier de Metz, Image du monde, en vers (1275-1300) - Bibliothèque nationale de France, Public domain, via Wikimedia Commons .jpg",
+    "legenda": "Gautier de Metz, Image du monde, en vers, 1275-1300. Bibliothèque nationale de France. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Gautier de Metz/Gautier de Metz, Image du monde. Séc. XIV - Gossuin de Metz, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Gautier de Metz, Image du monde, séc. XIV — Gossuin de Metz. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -606,6 +902,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Brunetto Latini/1 -Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
+   "headerLegenda": "Brunetto Latini, Li livres dou tresor. The British Library, United Kingdom. Public Domain.",
    "titulo": "Li livres dou tresor",
    "titulo_en": "The Book of the Treasure",
    "autor": "Brunetto Latini",
@@ -621,12 +918,30 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha24_Brunetto_Latini_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Brunetto Latini/1 -Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
-   "assets/images/Percursos/Brunetto Latini/2 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
-   "assets/images/Percursos/Brunetto Latini/3 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
-   "assets/images/Percursos/Brunetto Latini/4 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
-   "assets/images/Percursos/Brunetto Latini/Brunetto Latini - Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Brunetto Latini/Brunetto Latini, di Cristofano dell_Altissimo, 1589-99. Galleria degli Uffizi, Firenze. Serie Gioviana, Inv. n. 137. - Fabrizio Garrisi, CC0, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/1 -Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
+    "legenda": "Brunetto Latini, Li livres dou tresor. The British Library, United Kingdom. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/2 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
+    "legenda": "Brunetto Latini, Li livres dou tresor. The British Library, United Kingdom. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/3 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
+    "legenda": "Brunetto Latini, Li livres dou tresor. The British Library, United Kingdom. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/4 - Brunetto Latini, Li livres dou tresor - The British Library, United Kingdom - Public Domain..jpg",
+    "legenda": "Brunetto Latini, Li livres dou tresor. The British Library, United Kingdom. Public Domain."
+   },
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/Brunetto Latini - Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Brunetto Latini. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Brunetto Latini/Brunetto Latini, di Cristofano dell_Altissimo, 1589-99. Galleria degli Uffizi, Firenze. Serie Gioviana, Inv. n. 137. - Fabrizio Garrisi, CC0, via Wikimedia Commons.jpg",
+    "legenda": "Brunetto Latini, di Cristofano dell'Altissimo, 1589-99. Galleria degli Uffizi, Firenze. Serie Gioviana, Inv. n. 137 — Fabrizio Garrisi. CC0, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -683,6 +998,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Charles Estienne/1-1595-DICTIONARIVM HISTORICVM GEOGRAPHICVM, POETICVM, (...) propemodum infinitis repurgatum  - Por nlk20010095015 - 1595 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+   "headerLegenda": "Dictionarivm historicvm, geographicvm, poeticvm: gentium, hominum, deorum gentilium, regionum, locorum, civitatum ... Ingenti nominum acervo, historiarum, ac rerum insignium copia, postrema hac editione auctius & locupletius redditum, mendisque propemodum infinitis repurgatum — nlk20010095015, 1595. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only.",
    "titulo": "Dictionarium historicum, geographicum et poeticum",
    "titulo_en": "Historical, Geographical and Poetic Dictionary",
    "autor": "Charles Estienne",
@@ -698,9 +1014,18 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha26_Charles_Estienne_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Charles Estienne/1-1595-DICTIONARIVM HISTORICVM GEOGRAPHICVM, POETICVM, (...) propemodum infinitis repurgatum  - Por nlk20010095015 - 1595 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Charles Estienne/1590 - Dictionarivm Historicvm, Geographicvm, Poeticvm _ Gentium, hominum, deorum gentilium, ... necessaria Nomina, quo decet ordine complectens por Estienne, Charles - 1590 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
-   "assets/images/Percursos/Charles Estienne/2-1595-DICTIONARIVM HISTORICVM GEOGRAPHICVM, POETICVM, (...) propemodum infinitis repurgatum  - Por nlk20010095015 - 1595 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg"
+   {
+    "src": "assets/images/Percursos/Charles Estienne/1-1595-DICTIONARIVM HISTORICVM GEOGRAPHICVM, POETICVM, (...) propemodum infinitis repurgatum  - Por nlk20010095015 - 1595 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Dictionarivm historicvm, geographicvm, poeticvm: gentium, hominum, deorum gentilium, regionum, locorum, civitatum ... Ingenti nominum acervo, historiarum, ac rerum insignium copia, postrema hac editione auctius & locupletius redditum, mendisque propemodum infinitis repurgatum — nlk20010095015, 1595. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Charles Estienne/1590 - Dictionarivm Historicvm, Geographicvm, Poeticvm _ Gentium, hominum, deorum gentilium, ... necessaria Nomina, quo decet ordine complectens por Estienne, Charles - 1590 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
+    "legenda": "Dictionarivm historicvm, geographicvm, poeticvm: gentium, hominum, deorum gentilium, ... necessaria nomina, quo decet ordine complectens — Estienne, Charles, 1590. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Charles Estienne/2-1595-DICTIONARIVM HISTORICVM GEOGRAPHICVM, POETICVM, (...) propemodum infinitis repurgatum  - Por nlk20010095015 - 1595 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Dictionarivm historicvm, geographicvm, poeticvm: gentium, hominum, deorum gentilium, regionum, locorum, civitatum ... Ingenti nominum acervo, historiarum, ac rerum insignium copia, postrema hac editione auctius & locupletius redditum, mendisque propemodum infinitis repurgatum — nlk20010095015, 1595. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   }
   ]
  },
  {
@@ -710,6 +1035,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Paul Skalich/Encyclopaediae, seu orbis disciplinarum, tam sacrarum quam prophanarum (...) disputatio ... por Scaliger, Paul - 1559 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
+   "headerLegenda": "Encyclopaediae, seu orbis disciplinarum, tam sacrarum quam prophanarum, epistemon P. Scalichii de Lika, Comitis Hunnorum ... Ephesia disputatio ... — Scaliger, Paul, 1559. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only.",
    "titulo": "Orbis disciplinarum, tam sacrarum quam prophanarum, epitome",
    "titulo_en": "Epitome of the World of Disciplines, Sacred and Profane",
    "autor": "Paul Scalich (Skalich)",
@@ -725,8 +1051,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha27_Paul_Scalich_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Paul Skalich/Encyclopaediae, seu orbis disciplinarum, tam sacrarum quam prophanarum (...) disputatio ... por Scaliger, Paul - 1559 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
-   "assets/images/Percursos/Paul Skalich/Retrato - Paul Skalich - Rijksmuseum, CC0, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Paul Skalich/Encyclopaediae, seu orbis disciplinarum, tam sacrarum quam prophanarum (...) disputatio ... por Scaliger, Paul - 1559 - Bavarian State Library, Germany - No Copyright - Non-Commercial Use Only..jpeg",
+    "legenda": "Encyclopaediae, seu orbis disciplinarum, tam sacrarum quam prophanarum, epistemon P. Scalichii de Lika, Comitis Hunnorum ... Ephesia disputatio ... — Scaliger, Paul, 1559. Bavarian State Library, Germany. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Paul Skalich/Retrato - Paul Skalich - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Paul Skalich. Rijksmuseum. CC0, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -736,6 +1068,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Louis Moreri/1 - Reedição 1712 - Le gran dictionaire historique ou Le Mélange curieux de l_histoire sacrée et profaneNouvelle et derniere edition revûë, corrigée et augmentée..jpg",
+   "headerLegenda": "Le grand dictionaire historique ou Le mélange curieux de l'histoire sacrée et profane, nouvelle et dernière édition revue, corrigée et augmentée, reedição de 1712. Europeana.",
    "titulo": "Le grand dictionnaire historique, ou le mélange curieux de l'histoire sainte et profane",
    "titulo_en": "The Great Historical Dictionary, or the Curious Miscellany of Sacred and Profane History",
    "autor": "Louis Moréri",
@@ -751,9 +1084,18 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha28_Louis_Moreri_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Louis Moreri/1 - Reedição 1712 - Le gran dictionaire historique ou Le Mélange curieux de l_histoire sacrée et profaneNouvelle et derniere edition revûë, corrigée et augmentée..jpg",
-   "assets/images/Percursos/Louis Moreri/2 - Reedição 1712 - Le gran dictionaire historique ou Le Mélange curieux de l_histoire sacrée et profaneNouvelle et derniere edition revûë, corrigée et augmentée..jpg.jpg",
-   "assets/images/Percursos/Louis Moreri/Retrato Louis Moreri - Rijksmuseum, CC0, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Louis Moreri/1 - Reedição 1712 - Le gran dictionaire historique ou Le Mélange curieux de l_histoire sacrée et profaneNouvelle et derniere edition revûë, corrigée et augmentée..jpg",
+    "legenda": "Le grand dictionaire historique ou Le mélange curieux de l'histoire sacrée et profane, nouvelle et dernière édition revue, corrigée et augmentée, reedição de 1712. Europeana."
+   },
+   {
+    "src": "assets/images/Percursos/Louis Moreri/2 - Reedição 1712 - Le gran dictionaire historique ou Le Mélange curieux de l_histoire sacrée et profaneNouvelle et derniere edition revûë, corrigée et augmentée..jpg.jpg",
+    "legenda": "Le grand dictionaire historique ou Le mélange curieux de l'histoire sacrée et profane, nouvelle et dernière édition revue, corrigée et augmentée, reedição de 1712. Europeana."
+   },
+   {
+    "src": "assets/images/Percursos/Louis Moreri/Retrato Louis Moreri - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Louis Moréri. Rijksmuseum. CC0, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -763,6 +1105,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Antoine Furetière/Dictionnaire universel by Antoine Furetière. Edited by Arnout Leers en Reinier Leers. 1694 - Aernout Leers and Reinier Leers ( editors), Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Dictionnaire universel, by Antoine Furetière. Edited by Arnout Leers en Reinier Leers, 1694. Aernout Leers and Reinier Leers (editors). Public domain, via Wikimedia Commons.",
    "titulo": "Dictionnaire universel des arts et sciences",
    "titulo_en": "Universal Dictionary of Arts and Sciences",
    "autor": "Antoine Furetière",
@@ -778,8 +1121,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha29_Antoine_Furetiere_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Antoine Furetière/Dictionnaire universel by Antoine Furetière. Edited by Arnout Leers en Reinier Leers. 1694 - Aernout Leers and Reinier Leers ( editors), Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Antoine Furetière/Restrato_ Antoine Furetière - Rijksmuseum, CC0, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Antoine Furetière/Dictionnaire universel by Antoine Furetière. Edited by Arnout Leers en Reinier Leers. 1694 - Aernout Leers and Reinier Leers ( editors), Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Dictionnaire universel, by Antoine Furetière. Edited by Arnout Leers en Reinier Leers, 1694. Aernout Leers and Reinier Leers (editors). Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Antoine Furetière/Restrato_ Antoine Furetière - Rijksmuseum, CC0, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Antoine Furetière. Rijksmuseum. CC0, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -789,6 +1138,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Pierre Bayle/Pierre Bayle_ Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam 1697. Frontispice. - Pierre Bayle, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Pierre Bayle, Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam, 1697. Frontispice. Public domain, via Wikimedia Commons.",
    "titulo": "Dictionnaire historique et critique",
    "titulo_en": "Historical and Critical Dictionary",
    "autor": "Pierre Bayle",
@@ -804,7 +1154,10 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha30_Pierre_Bayle_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Pierre Bayle/Pierre Bayle_ Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam 1697. Frontispice. - Pierre Bayle, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Pierre Bayle/Pierre Bayle_ Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam 1697. Frontispice. - Pierre Bayle, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Pierre Bayle, Dictionaire historique et critique, Tome Premier A-G, Reinier Leers, Rotterdam, 1697. Frontispice. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -814,6 +1167,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Ephraim Chambers/1 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+   "headerLegenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA.",
    "titulo": "Cyclopaedia: or, An universal dictionary of arts and sciences",
    "titulo_en": "Cyclopaedia: or, An Universal Dictionary of Arts and Sciences",
    "autor": "Ephraim Chambers",
@@ -829,11 +1183,26 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha31_Ephraim_Chambers_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Ephraim Chambers/1 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
-   "assets/images/Percursos/Ephraim Chambers/2 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
-   "assets/images/Percursos/Ephraim Chambers/3- Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
-   "assets/images/Percursos/Ephraim Chambers/4 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
-   "assets/images/Percursos/Ephraim Chambers/5 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg"
+   {
+    "src": "assets/images/Percursos/Ephraim Chambers/1 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+    "legenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA."
+   },
+   {
+    "src": "assets/images/Percursos/Ephraim Chambers/2 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+    "legenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA."
+   },
+   {
+    "src": "assets/images/Percursos/Ephraim Chambers/3- Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+    "legenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA."
+   },
+   {
+    "src": "assets/images/Percursos/Ephraim Chambers/4 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+    "legenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA."
+   },
+   {
+    "src": "assets/images/Percursos/Ephraim Chambers/5 - Cyclopaedia, or, an universal dictionary of arts and sciences (...) in several languages by E. Chambers …. 1 por Chambers, Ephraim - 1741 - European Library of Information and Culture, Italy - CC BY-SA..jpg",
+    "legenda": "Cyclopaedia, or, an universal dictionary of arts and sciences ... in several languages by E. Chambers. 1 — Chambers, Ephraim, 1741. European Library of Information and Culture, Italy. CC BY-SA."
+   }
   ]
  },
  {
@@ -843,6 +1212,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Diderot - Louis-Michel van Loo, Public domain, via Wikimedia Commons.jpg",
+   "headerLegenda": "Retrato de Diderot — Louis-Michel van Loo. Public domain, via Wikimedia Commons.",
    "titulo": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers",
    "titulo_en": "Encyclopedia, or Reasoned Dictionary of the Sciences, Arts and Crafts",
    "autor": "Denis Diderot e Jean le Rond d'Alembert",
@@ -858,8 +1228,14 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha32_Diderot_e_dAlembert_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Diderot - Louis-Michel van Loo, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Jean Le Rond d_Alembert - Catherine Lusurier, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Diderot - Louis-Michel van Loo, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Diderot — Louis-Michel van Loo. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Diderot e d_Alembert/Retrato_ Jean Le Rond d_Alembert - Catherine Lusurier, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Jean Le Rond d'Alembert — Catherine Lusurier. Public domain, via Wikimedia Commons."
+   }
   ]
  },
  {
@@ -869,6 +1245,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Brittanica/1 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+   "headerLegenda": "Página da Encyclopaedia Britannica — Encyclopaedia Britannica, 1797. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only.",
    "titulo": "Encyclopaedia Britannica; or, A dictionary of arts and sciences, compiled upon a new plan",
    "titulo_en": "Encyclopaedia Britannica; or, A Dictionary of Arts and Sciences, Compiled upon a New Plan",
    "autor": "Andrew Bell, Colin Macfarquhar e William Smellie",
@@ -884,13 +1261,34 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha33_Encyclopaedia_Britannica_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Brittanica/1 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Brittanica/2 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Brittanica/3 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Brittanica/4 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Brittanica/Retrato_ Andrew Bell - George Watson, Public domain, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Brittanica/Retrato_ Colin Macfarquhar - Jinilson castro, CC BY-SA 4.0 _SITE DAQUI ESTÁ NO EXCEL_, via Wikimedia Commons.jpg",
-   "assets/images/Percursos/Brittanica/Retrato_ William Smellie - William Smellie. Line engraving by W. H. Lizars after G. Watson. por William Home Lizars - Wellcome Collection, United Kingdom - CC BY..jpeg"
+   {
+    "src": "assets/images/Percursos/Brittanica/1 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Página da Encyclopaedia Britannica — Encyclopaedia Britannica, 1797. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/2 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Página da Encyclopaedia Britannica — Encyclopaedia Britannica, 1797. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/3 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Página da Encyclopaedia Britannica — Encyclopaedia Britannica, 1797. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/4 - Pág. da Encyclopaedia Britannica - Encyclopaedia Britannica. - 1797 - National Library of the Czech Republic, Czech Republic - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Página da Encyclopaedia Britannica — Encyclopaedia Britannica, 1797. National Library of the Czech Republic, Czech Republic. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/Retrato_ Andrew Bell - George Watson, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Andrew Bell — George Watson. Public domain, via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/Retrato_ Colin Macfarquhar - Jinilson castro, CC BY-SA 4.0 _SITE DAQUI ESTÁ NO EXCEL_, via Wikimedia Commons.jpg",
+    "legenda": "Retrato de Colin Macfarquhar — Jinilson castro. CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons."
+   },
+   {
+    "src": "assets/images/Percursos/Brittanica/Retrato_ William Smellie - William Smellie. Line engraving by W. H. Lizars after G. Watson. por William Home Lizars - Wellcome Collection, United Kingdom - CC BY..jpeg",
+    "legenda": "Retrato de William Smellie — William Smellie. Line engraving by W. H. Lizars after G. Watson, por William Home Lizars. Wellcome Collection, United Kingdom. CC BY."
+   }
   ]
  },
  {
@@ -900,6 +1298,7 @@ window.TIMELINE_OBRAS = [
   "fichaHTML": true,
   "fichaData": {
    "headerImg": "assets/images/Percursos/Brockhaus/PAG. 0 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only..jpg",
+   "headerLegenda": "Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1, 1832. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only.",
    "titulo": "Conversations-Lexikon (Brockhaus)",
    "titulo_en": "Conversation Lexicon",
    "autor": "Löbel e Franke; depois F. A. Brockhaus",
@@ -915,10 +1314,22 @@ window.TIMELINE_OBRAS = [
   },
   "thumb": "assets/images/Fichas/thumbs/ficha_linha34_Brockhaus_thumb.jpg",
   "galeria": [
-   "assets/images/Percursos/Brockhaus/PAG. 0 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only..jpg",
-   "assets/images/Percursos/Brockhaus/PAG. 1 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only. .jpg",
-   "assets/images/Percursos/Brockhaus/PAG. 470 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only. .jpg",
-   "assets/images/Percursos/Brockhaus/Retrato do fundador_ Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein, Public domain, via Wikimedia Commons.jpg"
+   {
+    "src": "assets/images/Percursos/Brockhaus/PAG. 0 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only..jpg",
+    "legenda": "Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1, 1832. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brockhaus/PAG. 1 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only. .jpg",
+    "legenda": "Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1, 1832. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brockhaus/PAG. 470 - 1832 - Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1 - Austrian National Library, Austria - No Copyright - Non-Commercial Use Only. .jpg",
+    "legenda": "Conversations-Lexikon der neuesten Zeit und Literatur. In vier Bänden 1, 1832. Austrian National Library, Austria. No Copyright - Non-Commercial Use Only."
+   },
+   {
+    "src": "assets/images/Percursos/Brockhaus/Retrato do fundador_ Friedrich Arnold Brockhaus - Carl Christian Vogel von Vogelstein, Public domain, via Wikimedia Commons.jpg",
+    "legenda": "Retrato do fundador Friedrich Arnold Brockhaus — Carl Christian Vogel von Vogelstein. Public domain, via Wikimedia Commons."
+   }
   ]
  }
 ];

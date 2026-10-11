@@ -249,6 +249,7 @@
   var btnNext = document.getElementById('carrossel-next');
   var btnClose = document.getElementById('carrossel-close');
   var contador = document.getElementById('carrossel-contador');
+  var legendaEl = document.getElementById('carrossel-legenda');
 
   var slides = [];
   var indice = 0;
@@ -262,10 +263,14 @@
       slides.push({ type: 'html', data: obra.fichaData });
       currentFichaData = obra.fichaData;
     } else if (obra.ficha) {
-      slides.push({ type: 'img', src: obra.ficha });
+      slides.push({ type: 'img', src: obra.ficha, legenda: obra.fichaLegenda || '' });
     }
     obra.galeria.forEach(function (g) {
-      slides.push({ type: 'img', src: g });
+      if (typeof g === 'string') {
+        slides.push({ type: 'img', src: g, legenda: '' });
+      } else {
+        slides.push({ type: 'img', src: g.src, legenda: g.legenda || '' });
+      }
     });
 
     indice = 0;
@@ -288,11 +293,13 @@
       fichaEl.innerHTML = '';
       fichaEl.appendChild(buildFichaHTML(slide.data));
       fichaEl.classList.add('active');
+      legendaEl.textContent = '';
     } else {
       fichaEl.classList.remove('active');
       fichaEl.innerHTML = '';
       imgEl.style.display = '';
       imgEl.src = slide.src;
+      legendaEl.textContent = slide.legenda || '';
     }
     contador.textContent = (indice + 1) + ' / ' + slides.length;
     btnPrev.hidden = slides.length <= 1;

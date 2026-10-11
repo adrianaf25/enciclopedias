@@ -439,6 +439,20 @@
   right: 1rem;
 }
 
+.carrossel-legenda {
+  color: #aaa;
+  font-size: 0.75rem;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+  max-width: 80vw;
+  line-height: 1.4;
+  padding: 0 1rem;
+  min-height: 1.2em;
+}
+.carrossel-legenda:empty {
+  display: none;
+}
+
 .carrossel-contador {
   color: #ccc;
   font-size: 0.9rem;
